@@ -1,7 +1,7 @@
 # MoreCraftingTables
 
 Mod ported from 
-- [OhHowTheCraftingHasTabledh](https://github.com/P3NG00/OhHowTheCraftingHasTabled)
+- [OhHowTheCraftingHasTabled](https://github.com/P3NG00/OhHowTheCraftingHasTabled)
 
 
 
