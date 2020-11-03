@@ -1,0 +1,12 @@
+{
+  "block.minecraft.crafting_table": "Oak Crafting Table",
+
+  "block.mctb.spruce_crafting_table": "Spruce Crafting Table",
+  "block.mctb.birch_crafting_table": "Birch Crafting Table",
+  "block.mctb.jungle_crafting_table": "Jungle Crafting Table",
+  "block.mctb.acacia_crafting_table": "Acacia Crafting Table",
+  "block.mctb.dark_oak_crafting_table": "Dark Oak Crafting Table",
+  "block.mctb.crimson_crafting_table": "Crimson Crafting Table",
+  "block.mctb.warped_crafting_table": "Warped Crafting Table",
+  "container.crafting_table": "Crafting"
+}
