@@ -52,12 +52,4 @@ public class MoreCraftingTables {
             BlockItems.itemList.forEach(item -> event.getRegistry().register(item));
         }
 
-        @SubscribeEvent
-        public void onServerStarting(FMLServerStartingEvent event) {
-            MinecraftServer server = event.getServer();
-            server.getCommandManager().handleCommand(server.getCommandSource().withPermissionLevel(2),"datapack disable \"mod:mctb");
-        }
-
-    }
-
 }
