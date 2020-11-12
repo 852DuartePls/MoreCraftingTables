@@ -19,6 +19,7 @@ public class Blocks {
     public static final Block DARK_OAK_CRAFTING_TABLE = craftingTable("dark_oak_crafting_table");
     public static final Block WARPED_CRAFTING_TABLE = craftingTable("warped_crafting_table");
     public static final Block CRIMSON_CRAFTING_TABLE = craftingTable("crimson_crafting_table");
+    public static final Block STONE_CRAFTING_TABLE = craftingTable("stone_crafting_table");
 
 
     static Block craftingTable(String id) {

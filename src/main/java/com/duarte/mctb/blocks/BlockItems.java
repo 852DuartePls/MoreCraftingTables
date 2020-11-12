@@ -22,6 +22,7 @@ public class BlockItems {
     public static final Item DARK_OAK_CRAFTING_TABLE = createItem(new BlockItem(Blocks.DARK_OAK_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.DARK_OAK_CRAFTING_TABLE));
     public static final Item WARPED_CRAFTING_TABLE = createItem(new BlockItem(Blocks.WARPED_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.WARPED_CRAFTING_TABLE));
     public static final Item CRIMSON_CRAFTING_TABLE = createItem(new BlockItem(Blocks.CRIMSON_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.CRIMSON_CRAFTING_TABLE));
+    public static final Item STONE_CRAFTING_TABLE = createItem(new BlockItem(Blocks.STONE_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.STONE_CRAFTING_TABLE));
 
     public static Item createItem(Item item, ResourceLocation id) {
         if (id != null && !id.equals(new ResourceLocation("minecraft:air"))) {
