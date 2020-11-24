@@ -20,20 +20,6 @@ public class Blocks {
     public static final Block WARPED_CRAFTING_TABLE = craftingTable("warped_crafting_table");
     public static final Block CRIMSON_CRAFTING_TABLE = craftingTable("crimson_crafting_table");
     public static final Block STONE_CRAFTING_TABLE = craftingTable("stone_crafting_table");
-    
-    //Biomes'o'Plenty
-    public static final Block CHERRY_CRAFTING_TABLE = craftingTable("cherry_crafting_table");
-    public static final Block DEAD_CRAFTING_TABLE = craftingTable("dead_crafting_table");
-    public static final Block FIR_CRAFTING_TABLE = craftingTable("fir_crafting_table");
-    public static final Block HELLBARK_CRAFTING_TABLE = craftingTable("hellbark_crafting_table");
-    public static final Block JACARANDA_CRAFTING_TABLE = craftingTable("jacaranda_crafting_table");
-    public static final Block MAGIC_CRAFTING_TABLE = craftingTable("magic_crafting_table");
-    public static final Block MAHOGANY_CRAFTING_TABLE = craftingTable("mahogany_crafting_table");
-    public static final Block PALM_CRAFTING_TABLE = craftingTable("palm_crafting_table");
-    public static final Block REDWOOD_CRAFTING_TABLE = craftingTable("redwood_crafting_table");
-    public static final Block UMBRAN_CRAFTING_TABLE = craftingTable("umbran_crafting_table");
-    public static final Block WILLOW_CRAFTING_TABLE = craftingTable("willow_crafting_table");
-
 
     static Block craftingTable(String id) {
         Block createBlock = new CraftingBlock(AbstractBlock.Properties.from(net.minecraft.block.Blocks.CRAFTING_TABLE));
