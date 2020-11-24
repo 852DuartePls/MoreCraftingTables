@@ -24,6 +24,9 @@ public class BlockItems {
     public static final Item CRIMSON_CRAFTING_TABLE = createItem(new BlockItem(Blocks.CRIMSON_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.CRIMSON_CRAFTING_TABLE));
     public static final Item WARPED_CRAFTING_TABLE = createItem(new BlockItem(Blocks.WARPED_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.WARPED_CRAFTING_TABLE));
 
+	// Stone Crafting Table //
+	public static final Item WARPED_CRAFTING_TABLE = createItem(new BlockItem(Blocks.STONE_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.STONE_CRAFTING_TABLE));
+
     // Biomes o' Plenty //
     public static final Item CHERRY_CRAFTING_TABLE = createItem(new BlockItem(Blocks.CHERRY_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.CHERRY_CRAFTING_TABLE));
     public static final Item DEAD_CRAFTING_TABLE = createItem(new BlockItem(Blocks.DEAD_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.DEAD_CRAFTING_TABLE));
