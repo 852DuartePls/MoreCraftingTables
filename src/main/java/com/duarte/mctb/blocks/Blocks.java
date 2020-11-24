@@ -11,7 +11,6 @@ import java.util.List;
 public class Blocks {
     public static List<Block> blockList = new ArrayList<>();
 
-    //Vanilla
     public static final Block SPRUCE_CRAFTING_TABLE = craftingTable("spruce_crafting_table");
     public static final Block BIRCH_CRAFTING_TABLE = craftingTable("birch_crafting_table");
     public static final Block ACACIA_CRAFTING_TABLE = craftingTable("acacia_crafting_table");
