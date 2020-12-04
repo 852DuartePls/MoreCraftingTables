@@ -51,5 +51,5 @@ public class MoreCraftingTables {
             BlockItems.init();
             BlockItems.itemList.forEach(item -> event.getRegistry().register(item));
         }
-
+	}
 }

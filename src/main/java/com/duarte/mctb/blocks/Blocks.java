@@ -12,7 +12,7 @@ public class Blocks {
     public static List<Block> blockList = new ArrayList<>();
 
 
- // Vanilla //
+	// Vanilla //
     public static final Block SPRUCE_CRAFTING_TABLE = craftingTable("spruce_crafting_table");
     public static final Block BIRCH_CRAFTING_TABLE = craftingTable("birch_crafting_table");
     public static final Block ACACIA_CRAFTING_TABLE = craftingTable("acacia_crafting_table");
@@ -21,7 +21,11 @@ public class Blocks {
     public static final Block WARPED_CRAFTING_TABLE = craftingTable("warped_crafting_table");
     public static final Block CRIMSON_CRAFTING_TABLE = craftingTable("crimson_crafting_table");
 
+    // Stone Crafting Table //
+    public static final Block STONE_CRAFTING_TABLE = craftingTable("stone_crafting_table");
+
     // Biomes 'o Plenty
+  if(ModList.get().isLoaded("biomesoplenty")) {
     public static final Block CHERRY_CRAFTING_TABLE = craftingTable("cherry_crafting_table");
     public static final Block DEAD_CRAFTING_TABLE = craftingTable("dead_crafting_table");
     public static final Block FIR_CRAFTING_TABLE = craftingTable("fir_crafting_table");
@@ -33,7 +37,7 @@ public class Blocks {
     public static final Block REDWOOD_CRAFTING_TABLE = craftingTable("redwood_crafting_table");
     public static final Block UMBRAN_CRAFTING_TABLE = craftingTable("umbran_crafting_table");
     public static final Block WILLOW_CRAFTING_TABLE = craftingTable("willow_crafting_table");
-
+  }
 
     static Block craftingTable(String id) {
         Block createBlock = new CraftingBlock(AbstractBlock.Properties.from(net.minecraft.block.Blocks.CRAFTING_TABLE));
