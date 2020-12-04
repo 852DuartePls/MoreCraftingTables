@@ -25,9 +25,10 @@ public class BlockItems {
     public static final Item WARPED_CRAFTING_TABLE = createItem(new BlockItem(Blocks.WARPED_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.WARPED_CRAFTING_TABLE));
 
 	// Stone Crafting Table //
-	public static final Item WARPED_CRAFTING_TABLE = createItem(new BlockItem(Blocks.STONE_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.STONE_CRAFTING_TABLE));
+    public static final Item STONE_CRAFTING_TABLE = createItem(new BlockItem(Blocks.STONE_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.STONE_CRAFTING_TABLE));
 
     // Biomes o' Plenty //
+  if(ModList.get().isLoaded("biomesoplenty")) {
     public static final Item CHERRY_CRAFTING_TABLE = createItem(new BlockItem(Blocks.CHERRY_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.CHERRY_CRAFTING_TABLE));
     public static final Item DEAD_CRAFTING_TABLE = createItem(new BlockItem(Blocks.DEAD_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.DEAD_CRAFTING_TABLE));
     public static final Item FIR_CRAFTING_TABLE = createItem(new BlockItem(Blocks.FIR_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.FIR_CRAFTING_TABLE));
@@ -39,7 +40,7 @@ public class BlockItems {
     public static final Item UMBRAN_CRAFTING_TABLE = createItem(new BlockItem(Blocks.UMBRAN_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.UMBRAN_CRAFTING_TABLE));
     public static final Item WILLOW_CRAFTING_TABLE = createItem(new BlockItem(Blocks.WILLOW_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.WILLOW_CRAFTING_TABLE));
     public static final Item MAGIC_CRAFTING_TABLE = createItem(new BlockItem(Blocks.MAGIC_CRAFTING_TABLE, new Item.Properties().group(ItemGroup.DECORATIONS)), Registry.BLOCK.getKey(Blocks.MAGIC_CRAFTING_TABLE));
-    
+  }
     
     public static Item createItem(Item item, ResourceLocation id) {
         if (id != null && !id.equals(new ResourceLocation("minecraft:air"))) {
