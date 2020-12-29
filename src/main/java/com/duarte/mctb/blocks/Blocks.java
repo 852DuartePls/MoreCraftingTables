@@ -1,12 +1,13 @@
 package com.duarte.mctb.blocks;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.duarte.mctb.MoreCraftingTables;
+
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.util.ResourceLocation;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Blocks {
     public static List<Block> blockList = new ArrayList<>();

@@ -1,14 +1,15 @@
 package com.duarte.mctb.blocks;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.duarte.mctb.MoreCraftingTables;
+
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @SuppressWarnings("deprecation")
 public class BlockItems {

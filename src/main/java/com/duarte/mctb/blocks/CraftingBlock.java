@@ -1,6 +1,7 @@
 package com.duarte.mctb.blocks;
 
 import com.duarte.mctb.container.CraftingContainer;
+
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CraftingTableBlock;
 import net.minecraft.inventory.container.INamedContainerProvider;
@@ -12,10 +13,8 @@ import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 
 
-@SuppressWarnings("deprecation")
 public class CraftingBlock extends CraftingTableBlock {
     private static final ITextComponent NAME = new TranslationTextComponent("container.crafting_table");
-
 
     public CraftingBlock(Properties properties) {
         super(properties);
