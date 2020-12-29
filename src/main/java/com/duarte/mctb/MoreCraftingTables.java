@@ -1,25 +1,26 @@
 package com.duarte.mctb;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.duarte.mctb.blocks.BlockItems;
 import com.duarte.mctb.blocks.Blocks;
+
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 
 @Mod("mctb")
 public class MoreCraftingTables {
-    private static final Logger LOGGER = LogManager.getLogger();
+    @SuppressWarnings("unused")
+	private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "mctb";
     public static boolean isClient = false;
 
@@ -51,5 +52,5 @@ public class MoreCraftingTables {
             BlockItems.init();
             BlockItems.itemList.forEach(item -> event.getRegistry().register(item));
         }
-
+    }
 }
