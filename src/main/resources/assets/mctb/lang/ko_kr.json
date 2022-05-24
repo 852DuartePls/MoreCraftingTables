@@ -1,0 +1,28 @@
+{
+  "block.minecraft.crafting_table": "참나무 제작대",
+
+  "block.mctb.spruce_crafting_table": "가문비나무 제작대",
+  "block.mctb.birch_crafting_table": "자작나무 제작대",
+  "block.mctb.jungle_crafting_table": "정글 나무 제작대",
+  "block.mctb.acacia_crafting_table": "아카시아나무 제작대",
+  "block.mctb.dark_oak_crafting_table": "짙은 참나무 제작대",
+  "block.mctb.warped_crafting_table": "뒤틀린 자루 제작대",
+  "block.mctb.crimson_crafting_table": "진홍빛 자루 제작대",
+
+  "block.mctb.cherry_crafting_table": "벚나무 제작대",
+  "block.mctb.dead_crafting_table": "죽은 나무 제작대",
+  "block.mctb.fir_crafting_table": "전나무 제작대",
+  "block.mctb.hellbark_crafting_table": "지옥껍질나무 제작대",
+  "block.mctb.jacaranda_crafting_table": "자카란다나무 제작대",
+  "block.mctb.magic_crafting_table": "마법나무 제작대",
+  "block.mctb.mahogany_crafting_table": "마호가니 나무 제작대",
+  "block.mctb.palm_crafting_table": "야자나무 제작대",
+  "block.mctb.redwood_crafting_table": "삼나무 제작대",
+  "block.mctb.umbran_crafting_table": "엄브란나무 제작대",
+  "block.mctb.willow_crafting_table": "버드나무 제작대",
+
+  "block.mctb.azalea_crafting_table": "Azalea Crafting Table",
+  "block.mctb.blossom_crafting_table": "Blossom Crafting Table",
+
+  "container.crafting_table": "제작"
+}
