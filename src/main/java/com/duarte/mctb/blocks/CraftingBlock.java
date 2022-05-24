@@ -1,28 +1,27 @@
 package com.duarte.mctb.blocks;
 
 import com.duarte.mctb.container.CraftingContainer;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.CraftingTableBlock;
-import net.minecraft.inventory.container.INamedContainerProvider;
-import net.minecraft.inventory.container.SimpleNamedContainerProvider;
-import net.minecraft.util.IWorldPosCallable;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.text.TranslationTextComponent;
-import net.minecraft.world.World;
+import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.world.SimpleMenuProvider;
+import net.minecraft.world.inventory.ContainerLevelAccess;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.CraftingTableBlock;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 
+public class CraftingBlock
+        extends CraftingTableBlock {
+    private static final Component GUI_TITLE = new TranslatableComponent("container.crafting");
 
-@SuppressWarnings("deprecation")
-public class CraftingBlock extends CraftingTableBlock {
-    private static final ITextComponent NAME = new TranslationTextComponent("container.crafting_table");
-
-
-    public CraftingBlock(Properties properties) {
+    public CraftingBlock(BlockBehaviour.Properties properties) {
         super(properties);
     }
 
-    @Override
-    public INamedContainerProvider getContainer(BlockState state, World worldIn, BlockPos pos) {
-        return new SimpleNamedContainerProvider((id, inventory, entity) -> new CraftingContainer(id, inventory, IWorldPosCallable.of(worldIn, pos), this), NAME);
+    public MenuProvider getMenuProvider(BlockState state, Level worldIn, BlockPos pos) {
+        return new SimpleMenuProvider((id, inventory, entity) -> new CraftingContainer(id, inventory, ContainerLevelAccess.create((Level)worldIn, (BlockPos)pos), (Block)this), GUI_TITLE);
     }
 }
