@@ -9,9 +9,16 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 
+    // THIS SECTION IS USELESS WITH THE NEW 1.19, ONLY WORKS WITH THE OLD CODE FOR 1.18
+    // THIS SECTION IS USELESS WITH THE NEW 1.19, ONLY WORKS WITH THE OLD CODE FOR 1.18
+    // THIS SECTION IS USELESS WITH THE NEW 1.19, ONLY WORKS WITH THE OLD CODE FOR 1.18
+    // THIS SECTION IS USELESS WITH THE NEW 1.19, ONLY WORKS WITH THE OLD CODE FOR 1.18
+
 public class BlockItems {
     public static List<Item> itemList = new ArrayList<Item>();
     
+    // BLOCKITEMS ARE ALREADY INCLUDED IN THE REGISTRATION FILE
+        
     //Vanilla
     public static final Item SPRUCE_CRAFTING_TABLE = BlockItems.createItem((Item)new BlockItem(Blocks.SPRUCE_CRAFTING_TABLE, new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS)), Registry.BLOCK.getKey(Blocks.SPRUCE_CRAFTING_TABLE));
     public static final Item BIRCH_CRAFTING_TABLE = BlockItems.createItem((Item)new BlockItem(Blocks.BIRCH_CRAFTING_TABLE, new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS)), Registry.BLOCK.getKey(Blocks.BIRCH_CRAFTING_TABLE));
