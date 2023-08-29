@@ -16,8 +16,7 @@ The recipe for the vanilla Crafting Table now works like this
 I added this hoping that it will help with future compatibility issues, if you want your mod to be compatible with mine just add your "planks" tag in 
 ` data/forge/tags/items/ `
  What exactly should be listed here?
- - Planks that my mod doesnt support like the vertical planks from Quark
-
+ - Planks that are not currently available in my mod
 
 This mod respects the original author's license
 
