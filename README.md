@@ -3,8 +3,18 @@
 Mod ported from 
 - [OhHowTheCraftingHasTabled](https://github.com/P3NG00/OhHowTheCraftingHasTabled)
 
+The recipe for the vanilla Crafting Table now works like this 
 
+```
+  "key": {
+    "#": [
+    {"item": "minecraft:oak_planks"},
+    {"tag": "forge:planks"}
+  ]
+```
 
+I added this hoping that it will help with future compatibility issues, if you want your mod to be compatible with mine just add your "planks" tag in 
+` data/forge/tags/items/ `
 
 
 
