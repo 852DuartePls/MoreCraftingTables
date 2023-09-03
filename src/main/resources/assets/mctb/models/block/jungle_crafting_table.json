@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/jungle_crafting_table_front",
+    "up": "mctb:block/jungle_crafting_table_top",
+    "down": "minecraft:block/jungle_planks",
+    "north": "mctb:block/jungle_crafting_table_front",
+    "south": "mctb:block/jungle_crafting_table_side",
+    "west": "mctb:block/jungle_crafting_table_front",
+    "east": "mctb:block/jungle_crafting_table_side"
+  }
+}
