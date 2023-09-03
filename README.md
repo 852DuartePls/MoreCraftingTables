@@ -3,20 +3,31 @@
 Mod ported from 
 - [OhHowTheCraftingHasTabled](https://github.com/P3NG00/OhHowTheCraftingHasTabled)
 
-The recipe for the vanilla Crafting Table now works like this 
+The recipe for the vanilla Crafting Table has a second recipe that works like this 
 
 ```
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
   "key": {
-    "#": [
-    {"item": "minecraft:oak_planks"},
-    {"tag": "forge:planks"}
-  ]
+    "#": {
+      "tag": "forge:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table"
+  }
+}
+
 ```
 
 I added this hoping that it will help with future compatibility issues, if you want your mod to be compatible with mine just add your "planks" tag in 
-` data/forge/tags/items/ `
+` data/forge/tags/items/ ` in your mods folder
  What exactly should be listed here?
- - Planks that are not currently available in my mod
+ - Planks that are not currently available in my mod so it will output the vanilla crafting table
 
 This mod respects the original author's license
 
