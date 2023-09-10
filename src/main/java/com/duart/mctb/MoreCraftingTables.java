@@ -33,15 +33,6 @@ public class MoreCraftingTables {
         LOGGER.info("MoreCraftingTables Loaded");
     }
 
-    @SubscribeEvent
-    public void addToExistingTab(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-            for (RegistryObject<CraftingBlock> blockObject : ModBlocks.CRAFTING_TABLES) {
-                event.accept(blockObject.get());
-            }
-        }
-    }
-
     // Allow Crafting Tables to be used as furnace fuel
     @SubscribeEvent
     public void onFurnaceFuelBurnTime(FurnaceFuelBurnTimeEvent event) {
