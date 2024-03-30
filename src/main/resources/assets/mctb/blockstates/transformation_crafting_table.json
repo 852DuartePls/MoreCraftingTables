@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mctb:block/transformation_crafting_table"
+    }
+  }
+}

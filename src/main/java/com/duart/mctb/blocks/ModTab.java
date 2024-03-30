@@ -10,6 +10,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.item.ItemStack;
+import org.jetbrains.annotations.NotNull;
 
 
 @Mod.EventBusSubscriber(modid = MoreCraftingTables.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -17,7 +18,7 @@ public class ModTab {
 
     public static final RegistryObject<CreativeModeTab> CUSTOM_TAB = Registration.TABS.register("mctb_tab",
             () -> {
-                Block blockToUseAsIcon = ModBlocks.CRAFTING_TABLES[6].get();
+                Block blockToUseAsIcon = ModBlocks.CRAFTING_TABLES.get(6).get();
                 return CreativeModeTab.builder()
                         .title(Component.translatable("itemGroup.custom_tab"))
                         .icon(() -> new ItemStack(blockToUseAsIcon))
@@ -25,11 +26,11 @@ public class ModTab {
             });
 
     @SubscribeEvent
-    public static void setCustomTabContents(BuildCreativeModeTabContentsEvent event) {
+    public static void setCustomTabContents(@NotNull BuildCreativeModeTabContentsEvent event) {
         if (event.getTab() == CUSTOM_TAB.get()) {
-           for (RegistryObject<CraftingBlock> blockObject : ModBlocks.CRAFTING_TABLES) {
-               event.accept(blockObject.get());
-           }
+            for (RegistryObject<CraftingBlock> blockObject : ModBlocks.CRAFTING_TABLES) {
+                event.accept(blockObject.get());
+            }
         }
     }
 }

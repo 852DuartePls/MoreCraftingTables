@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:eucalyptus_planks"
+    }
+  },
+  "result": {
+    "item": "mctb:eucalyptus_crafting_table",
+    "count": 1
+  }
+}

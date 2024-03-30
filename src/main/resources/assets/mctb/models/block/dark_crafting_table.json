@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/dark_crafting_table_front",
+    "up": "mctb:block/dark_crafting_table_top",
+    "down": "mctb:block/dark_planks",
+    "north": "mctb:block/dark_crafting_table_front",
+    "south": "mctb:block/dark_crafting_table_side",
+    "west": "mctb:block/dark_crafting_table_front",
+    "east": "mctb:block/dark_crafting_table_side"
+  }
+}

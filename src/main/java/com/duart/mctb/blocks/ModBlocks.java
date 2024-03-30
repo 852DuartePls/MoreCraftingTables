@@ -4,22 +4,31 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.RegistryObject;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ModBlocks {
 
-    public static final RegistryObject<CraftingBlock>[] CRAFTING_TABLES = new RegistryObject[BlockIds.CRAFTING_TABLES.length];
+    public static final List<RegistryObject<CraftingBlock>> CRAFTING_TABLES = createCraftingTables();
 
-    static {
-        for (int i = 0; i < BlockIds.CRAFTING_TABLES.length; i++) {
-            CRAFTING_TABLES[i] = register(BlockIds.CRAFTING_TABLES[i] + "_crafting_table"); }
+    private static @NotNull List<RegistryObject<CraftingBlock>> createCraftingTables() {
+        List<RegistryObject<CraftingBlock>> craftingTables = new ArrayList<>();
+        for (String tableName : BlockIds.CRAFTING_TABLES) {
+            craftingTables.add(register(tableName + "_crafting_table"));
+        }
+        return craftingTables;
     }
 
     public static RegistryObject<CraftingBlock> register(String name) {
         return Registration.BLOCKS.register(name, () -> createCraftingBlock(name));
     }
 
-    private static CraftingBlock createCraftingBlock(String name) {
-        return new CraftingBlock(BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.CRAFTING_TABLE));
+    @Contract("_ -> new")
+    private static @NotNull CraftingBlock createCraftingBlock(String name) {
+        return new CraftingBlock(BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.CRAFTING_TABLE));
     }
 
     public static void registerBlockItems() {
@@ -27,7 +36,7 @@ public class ModBlocks {
             Registration.ITEMS.register(blockObject.getId().getPath(), () -> new BlockItem(blockObject.get(), new Item.Properties()));
         }
     }
-    static void register() {}
+
+    public static void register() {
+    }
 }
-
-

@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-Specification-Title: examplemod
-Specification-Vendor: examplemodsareus
+Specification-Title: mctb
+Specification-Vendor: daveduart
 Specification-Version: 1
-Implementation-Title: forge-1.19.4-45.0.6-mdk
+Implementation-Title: forge-1.20.4-49.0.38-mdk
 Implementation-Version: 1.0
 Implementation-Vendor: examplemodsareus
 Implementation-Timestamp: 2023-03-17T13:59:01-0300
