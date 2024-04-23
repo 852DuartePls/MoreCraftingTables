@@ -23,11 +23,11 @@ public class ModBlocks {
     }
 
     public static RegistryObject<CraftingBlock> register(String name) {
-        return Registration.BLOCKS.register(name, () -> createCraftingBlock(name));
+        return Registration.BLOCKS.register(name, ModBlocks::createCraftingBlock);
     }
 
-    @Contract("_ -> new")
-    private static @NotNull CraftingBlock createCraftingBlock(String name) {
+    @Contract(" -> new")
+    private static @NotNull CraftingBlock createCraftingBlock() {
         return new CraftingBlock(BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.CRAFTING_TABLE));
     }
 
