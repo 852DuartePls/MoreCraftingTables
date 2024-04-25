@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mctb:block/time_crafting_table"
+    }
+  }
+}

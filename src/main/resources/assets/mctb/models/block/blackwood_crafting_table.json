@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/blackwood_crafting_table_front",
+    "up": "mctb:block/blackwood_crafting_table_top",
+    "down": "mctb:block/blackwood_planks",
+    "north": "mctb:block/blackwood_crafting_table_front",
+    "south": "mctb:block/blackwood_crafting_table_side",
+    "west": "mctb:block/blackwood_crafting_table_front",
+    "east": "mctb:block/blackwood_crafting_table_side"
+  }
+}

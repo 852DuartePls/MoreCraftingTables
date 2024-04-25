@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:willow_planks"
+    }
+  },
+  "result": {
+    "item": "mctb:ru_willow_crafting_table",
+    "count": 1
+  }
+}

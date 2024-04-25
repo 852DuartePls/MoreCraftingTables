@@ -1,0 +1,51 @@
+{
+  "block.minecraft.crafting_table": "Mesa de Artesanato de Carvalho",
+
+  "block.mctb.spruce_crafting_table": "Mesa de Artesanato de Abeto",
+  "block.mctb.birch_crafting_table": "Mesa de Artesanato de Bétula",
+  "block.mctb.jungle_crafting_table": "Mesa de Artesanato de Selva",
+  "block.mctb.acacia_crafting_table": "Mesa de Artesanato de Acácia",
+  "block.mctb.dark_oak_crafting_table": "Mesa de Artesanato de Carvalho Escuro",
+  "block.mctb.warped_crafting_table": "Mesa de Artesanato Distorcido",
+  "block.mctb.crimson_crafting_table": "Mesa de Artesanato Carmesim",
+  "block.mctb.mangrove_crafting_table": "Mesa de Artesanato de Mangue",
+  "block.mctb.bamboo_crafting_table": "Mesa de Artesanato de Bambu",
+
+  "block.mctb.bop_cherry_crafting_table": "Mesa de Artesanato de Cerejeira",
+  "block.mctb.dead_crafting_table": "Mesa de Artesanato Morta",
+  "block.mctb.fir_crafting_table": "Mesa de Artesanato de Abeto",
+  "block.mctb.hellbark_crafting_table": "Mesa de Artesanato de Madeira Infernal",
+  "block.mctb.jacaranda_crafting_table": "Mesa de Artesanato de Jacarandá",
+  "block.mctb.magic_crafting_table": "Mesa de Artesanato Mágica",
+  "block.mctb.mahogany_crafting_table": "Mesa de Artesanato de Mogno",
+  "block.mctb.palm_crafting_table": "Mesa de Artesanato de Palmeira",
+  "block.mctb.redwood_crafting_table": "Mesa de Artesanato de Redwood",
+  "block.mctb.umbran_crafting_table": "Mesa de Artesanato de Umbrano",
+  "block.mctb.willow_crafting_table": "Mesa de Artesanato de Salgueiro",
+
+  "block.mctb.azalea_crafting_table": "Mesa de Artesanato de Azaléia",
+  "block.mctb.cherry_crafting_table": "Mesa de Artesanato de Cerejeira",
+  "block.mctb.ancient_crafting_table": "Mesa de Artesanato Antiga",
+
+  "block.mctb.aeronos_crafting_table": "Mesa de Artesanato Aeronos",
+  "block.mctb.strophar_crafting_table": "Mesa de Artesanato Strophar",
+  "block.mctb.glacian_crafting_table": "Mesa de Artesanato Glacian",
+  "block.mctb.ad_ancient_crafting_table": "Mesa de Artesanato Antiga",
+
+  "block.mctb.smogstem_crafting_table": "Mesa de Artesanato Smogstem",
+  "block.mctb.wigglewood_crafting_table": "Mesa de Artesanato Wigglewood",
+  "block.mctb.grongle_crafting_table": "Mesa de Artesanato Grongle",
+
+  "block.mctb.twilight_oak_crafting_table": "Mesa de Artesanato Carvalho Crepuscular",
+  "block.mctb.canopy_crafting_table": "Mesa de Artesanato de Dossel",
+  "block.mctb.twilight_mangrove_crafting_table": "Mesa de Artesanato Manguezal Crepuscular",
+  "block.mctb.dark_crafting_table": "Mesa de Artesanato Escura",
+  "block.mctb.time_crafting_table": "Mesa de Artesanato Temporal",
+  "block.mctb.transformation_crafting_table": "Mesa de Artesanato de Transformação",
+  "block.mctb.mining_crafting_table": "Mesa de Artesanato de Mineração",
+  "block.mctb.sorting_crafting_table": "Mesa de Artesanato de Classificação",
+  "block.mctb.towerwood_crafting_table": "Mesa de Artesanato Towerwood",
+
+  "itemGroup.custom_tab": "More Crafting Tables",
+  "container.crafting_table": "Crafting"
+}
