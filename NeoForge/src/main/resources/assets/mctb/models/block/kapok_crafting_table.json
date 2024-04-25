@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/kapok_crafting_table_front",
+    "up": "mctb:block/kapok_crafting_table_top",
+    "down": "mctb:block/kapok_planks",
+    "north": "mctb:block/kapok_crafting_table_front",
+    "south": "mctb:block/kapok_crafting_table_side",
+    "west": "mctb:block/kapok_crafting_table_front",
+    "east": "mctb:block/kapok_crafting_table_side"
+  }
+}

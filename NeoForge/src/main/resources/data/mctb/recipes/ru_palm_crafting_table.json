@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:palm_planks"
+    }
+  },
+  "result": {
+    "item": "mctb:ru_palm_crafting_table",
+    "count": 1
+  }
+}

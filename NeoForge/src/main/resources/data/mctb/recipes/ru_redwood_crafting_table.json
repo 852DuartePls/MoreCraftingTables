@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:redwood_planks"
+    }
+  },
+  "result": {
+    "item": "mctb:ru_redwood_crafting_table",
+    "count": 1
+  }
+}
