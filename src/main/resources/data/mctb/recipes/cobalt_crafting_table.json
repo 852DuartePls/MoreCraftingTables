@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:cobalt_crafting_table",
+     "id": "mctb:cobalt_crafting_table",
     "count": 1
   }
 }

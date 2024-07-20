@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:aeronos_crafting_table",
+        "id": "mctb:aeronos_crafting_table",
         "count": 1
     }
 }

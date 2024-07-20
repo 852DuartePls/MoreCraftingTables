@@ -6,14 +6,11 @@
   ],
   "key":
   {
-    "x":
-    {
+    "x": {
       "item": "minecraft:acacia_planks"
     }
   },
-  "result":
-  {
-    "item": "mctb:acacia_crafting_table",
-    "count": 1
+  "result": {
+    "id": "mctb:acacia_crafting_table"
   }
 }

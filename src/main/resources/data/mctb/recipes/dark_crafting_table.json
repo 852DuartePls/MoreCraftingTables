@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:dark_crafting_table",
+        "id": "mctb:dark_crafting_table",
         "count": 1
     }
 }

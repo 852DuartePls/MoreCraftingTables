@@ -12,7 +12,6 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.item.ItemStack;
 import org.jetbrains.annotations.NotNull;
 
-
 @Mod.EventBusSubscriber(modid = MoreCraftingTables.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ModTab {
 

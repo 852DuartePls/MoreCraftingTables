@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:canopy_crafting_table",
+        "id": "mctb:canopy_crafting_table",
         "count": 1
     }
 }

@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:mahogany_crafting_table",
+     "id":  "mctb:mahogany_crafting_table",
     "count": 1
   }
 }

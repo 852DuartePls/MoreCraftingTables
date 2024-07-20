@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[49,)"
+loaderVersion="[50,)"
 license="MIT"
 
 [[mods]]
 modId="mctb"
-version="1.20.4"
+version="1.20.6"
 displayName="More Crafting Tables Mod"
 logoFile="mctb.png"
 
@@ -23,13 +23,13 @@ https://www.curseforge.com/minecraft/mc-mods/oh-how-the-crafting-has-tabled
 [[dependencies.mctb]]
 modId="forge"
 mandatory=true
-versionRange="[49,)"
+versionRange="[50,)"
 ordering="AFTER"
 side="BOTH"
 
 [[dependencies.mctb]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.4]"
+versionRange="[1.20.6]"
 ordering="NONE"
 side="BOTH"

@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:mining_crafting_table",
+        "id": "mctb:mining_crafting_table",
         "count": 1
     }
 }

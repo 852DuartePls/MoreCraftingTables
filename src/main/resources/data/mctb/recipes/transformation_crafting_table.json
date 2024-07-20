@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:transformation_crafting_table",
+        "id": "mctb:transformation_crafting_table",
         "count": 1
     }
 }

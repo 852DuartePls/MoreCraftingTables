@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:twilight_oak_crafting_table",
+        "id": "mctb:twilight_oak_crafting_table",
         "count": 1
     }
 }

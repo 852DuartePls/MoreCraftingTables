@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:blackwood_crafting_table",
+     "id": "mctb:blackwood_crafting_table",
     "count": 1
   }
 }

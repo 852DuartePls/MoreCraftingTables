@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:brimwood_crafting_table",
+     "id": "mctb:brimwood_crafting_table",
     "count": 1
   }
 }

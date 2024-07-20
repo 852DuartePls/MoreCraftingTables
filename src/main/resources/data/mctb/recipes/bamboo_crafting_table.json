@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:bamboo_crafting_table",
+    "id": "mctb:bamboo_crafting_table",
     "count": 1
   }
 }

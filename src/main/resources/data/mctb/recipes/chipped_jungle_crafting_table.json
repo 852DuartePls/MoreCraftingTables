@@ -1,4 +1,3 @@
-
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -11,6 +10,6 @@
     }
   },
   "result": {
-    "item": "mctb:jungle_crafting_table"
+     "id": "mctb:jungle_crafting_table"
   }
 }

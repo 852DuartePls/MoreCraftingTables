@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:time_crafting_table",
+        "id": "mctb:time_crafting_table",
         "count": 1
     }
 }

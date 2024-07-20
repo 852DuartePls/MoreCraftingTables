@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:ru_willow_crafting_table",
+     "id":  "mctb:ru_willow_crafting_table",
     "count": 1
   }
 }

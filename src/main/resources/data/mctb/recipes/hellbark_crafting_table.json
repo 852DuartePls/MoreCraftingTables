@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:hellbark_crafting_table",
+     "id":  "mctb:hellbark_crafting_table",
     "count": 1
   }
 }

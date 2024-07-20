@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:joshua_crafting_table",
+     "id":  "mctb:joshua_crafting_table",
     "count": 1
   }
 }

@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:glacian_crafting_table",
+        "id": "mctb:glacian_crafting_table",
         "count": 1
     }
 }

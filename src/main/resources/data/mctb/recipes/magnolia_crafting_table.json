@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:magnolia_crafting_table",
+     "id":  "mctb:magnolia_crafting_table",
     "count": 1
   }
 }

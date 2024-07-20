@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:jacaranda_crafting_table",
+     "id":  "mctb:jacaranda_crafting_table",
     "count": 1
   }
 }

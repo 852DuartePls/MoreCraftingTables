@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:ru_palm_crafting_table",
+     "id":  "mctb:ru_palm_crafting_table",
     "count": 1
   }
 }

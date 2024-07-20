@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:umbran_crafting_table",
+    "id": "mctb:umbran_crafting_table",
     "count": 1
   }
 }

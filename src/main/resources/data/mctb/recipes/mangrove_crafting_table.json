@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:mangrove_crafting_table",
+    "id": "mctb:mangrove_crafting_table",
     "count": 1
   }
 }

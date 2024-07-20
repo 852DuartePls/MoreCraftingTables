@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:grongle_crafting_table",
+        "id": "mctb:grongle_crafting_table",
         "count": 1
     }
 }

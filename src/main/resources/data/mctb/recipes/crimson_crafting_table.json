@@ -10,6 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:crimson_crafting_table"
+    "id": "mctb:crimson_crafting_table",
+    "count": 1
   }
 }

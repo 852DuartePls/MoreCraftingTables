@@ -10,7 +10,7 @@
         }
     },
     "result": {
-        "item": "mctb:towerwood_crafting_table",
+        "id": "mctb:towerwood_crafting_table",
         "count": 1
     }
 }

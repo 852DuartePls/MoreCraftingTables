@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "mctb:baobab_crafting_table",
+     "id": "mctb:baobab_crafting_table",
     "count": 1
   }
 }
