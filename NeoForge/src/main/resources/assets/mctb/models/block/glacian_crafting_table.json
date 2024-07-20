@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/glacian_crafting_table_front",
+    "up": "mctb:block/glacian_crafting_table_top",
+    "down": "mctb:block/glacian_planks",
+    "north": "mctb:block/glacian_crafting_table_front",
+    "south": "mctb:block/glacian_crafting_table_side",
+    "west": "mctb:block/glacian_crafting_table_front",
+    "east": "mctb:block/glacian_crafting_table_side"
+  }
+}

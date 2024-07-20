@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mctb:block/mining_crafting_table"
+    }
+  }
+}

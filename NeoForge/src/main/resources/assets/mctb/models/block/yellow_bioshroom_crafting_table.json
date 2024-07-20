@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/yellow_bioshroom_crafting_table_front",
+    "up": "mctb:block/yellow_bioshroom_crafting_table_top",
+    "down": "mctb:block/yellow_bioshroom_planks",
+    "north": "mctb:block/yellow_bioshroom_crafting_table_front",
+    "south": "mctb:block/yellow_bioshroom_crafting_table_side",
+    "west": "mctb:block/yellow_bioshroom_crafting_table_front",
+    "east": "mctb:block/yellow_bioshroom_crafting_table_side"
+  }
+}

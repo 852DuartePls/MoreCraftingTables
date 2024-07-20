@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/smogstem_crafting_table_front",
+    "up": "mctb:block/smogstem_crafting_table_top",
+    "down": "mctb:block/smogstem_planks",
+    "north": "mctb:block/smogstem_crafting_table_front",
+    "south": "mctb:block/smogstem_crafting_table_side",
+    "west": "mctb:block/smogstem_crafting_table_front",
+    "east": "mctb:block/smogstem_crafting_table_side"
+  }
+}

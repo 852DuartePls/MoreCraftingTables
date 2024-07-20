@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="MIT"
+
+[[mods]]
+modId="mctb"
+version="1.20.4"
+displayName="More Crafting Tables Mod"
+logoFile="mctb.png"
+
+authors='''
+P3NG00 = Original creator of the mod for Fabric
+852Duarte = Ported for Forge
+'''
+
+description='''
+A simple mod that adds more variables to the Crafting Table according to every type of wood in Minecraft!
+
+This mod is a port from the original one maded for Fabric called "Oh, How the Crafting Has Tabled!"
+https://www.curseforge.com/minecraft/mc-mods/oh-how-the-crafting-has-tabled
+'''
+
+[[dependencies.mctb]]
+modId="neoforge"
+type="required"
+mandatory=true
+versionRange="${neo_version_range}"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.mctb]]
+modId="minecraft"
+type="required"
+mandatory=true
+versionRange="[1.20.4]"
+ordering="NONE"
+side="BOTH"

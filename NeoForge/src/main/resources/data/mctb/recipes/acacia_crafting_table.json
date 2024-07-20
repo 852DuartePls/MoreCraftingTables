@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result":
+  {
+    "item": "mctb:acacia_crafting_table",
+    "count": 1
+  }
+}
