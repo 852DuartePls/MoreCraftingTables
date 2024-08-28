@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/baobab_crafting_table_front",
+    "up": "mctb:block/baobab_crafting_table_top",
+    "down": "mctb:block/baobab_planks",
+    "north": "mctb:block/baobab_crafting_table_front",
+    "south": "mctb:block/baobab_crafting_table_side",
+    "west": "mctb:block/baobab_crafting_table_front",
+    "east": "mctb:block/baobab_crafting_table_side"
+  }
+}

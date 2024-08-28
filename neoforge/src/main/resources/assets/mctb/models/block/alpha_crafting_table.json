@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/alpha_crafting_table_front",
+    "up": "mctb:block/alpha_crafting_table_top",
+    "down": "mctb:block/alpha_planks",
+    "north": "mctb:block/alpha_crafting_table_front",
+    "south": "mctb:block/alpha_crafting_table_side",
+    "west": "mctb:block/alpha_crafting_table_front",
+    "east": "mctb:block/alpha_crafting_table_side"
+  }
+}

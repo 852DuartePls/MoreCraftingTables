@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "mctb:block/socotra_crafting_table_front",
+    "up": "mctb:block/socotra_crafting_table_top",
+    "down": "mctb:block/socotra_planks",
+    "north": "mctb:block/socotra_crafting_table_front",
+    "south": "mctb:block/socotra_crafting_table_side",
+    "west": "mctb:block/socotra_crafting_table_front",
+    "east": "mctb:block/socotra_crafting_table_side"
+  }
+}

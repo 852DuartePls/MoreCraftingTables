@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "regions_unexplored:pink_bioshroom_planks"
+    }
+  },
+  "result": {
+     "id":  "mctb:pink_bioshroom_crafting_table",
+    "count": 1
+  }
+}

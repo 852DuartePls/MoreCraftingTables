@@ -1,0 +1,31 @@
+{
+  "block.minecraft.crafting_table": "Bancada de trabalho de carvalho",
+
+  "block.mctb.spruce_crafting_table": "Bancada de trabalho de pinheiro",
+  "block.mctb.birch_crafting_table": "Bancada de trabalho de bétula",
+  "block.mctb.jungle_crafting_table": "Bancada de trabalho de madeira da selva",
+  "block.mctb.acacia_crafting_table": "Bancada de trabalho de acácia",
+  "block.mctb.dark_oak_crafting_table": "Bancada de trabalho de carvalho escuro",
+  "block.mctb.warped_crafting_table": "Bancada de trabalho distorcida",
+  "block.mctb.crimson_crafting_table": "Bancada de trabalho carmesin",
+  "block.mctb.mangrove_crafting_table": "Bancada de trabalho de mangue",
+  "block.mctb.bamboo_crafting_table": "Bancada de trabalho de bambu",
+
+  "block.mctb.bop_cherry_crafting_table": "Bancada de trabalho de cerejeira",
+  "block.mctb.dead_crafting_table": "Bancada de trabalho morta",
+  "block.mctb.fir_crafting_table": "Bancada de trabalho de abeto",
+  "block.mctb.hellbark_crafting_table": "Bancada de trabalho de hellbark",
+  "block.mctb.jacaranda_crafting_table": "Bancada de trabalho de jacaranda",
+  "block.mctb.magic_crafting_table": "Bancada de trabalho mágica",
+  "block.mctb.mahogany_crafting_table": "Bancada de trabalho de mogno",
+  "block.mctb.palm_crafting_table": "Bancada de trabalho de palmeira",
+  "block.mctb.redwood_crafting_table": "Bancada de trabalho de sequoia",
+  "block.mctb.umbran_crafting_table": "Bancada de trabalho de umbrã",
+  "block.mctb.willow_crafting_table": "Bancada de trabalho de salgueiro",
+
+  "block.mctb.azalea_crafting_table": "Bancada de trabalho de azaleia",
+  "block.mctb.cherry_crafting_table": "Bancada de trabalho de cerejeira",
+  "block.mctb.ancient_crafting_table": "Bancada de trabalho anciã",
+
+  "container.crafting_table": "Bancada de trabalho"
+}
