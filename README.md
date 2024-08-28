@@ -1,7 +1,9 @@
 # MoreCraftingTables
 
-Mod ported from 
+Mod ported from
 - [OhHowTheCraftingHasTabled](https://github.com/P3NG00/OhHowTheCraftingHasTabled)
+
+Used the [MultiLoader-Template](https://github.com/jaredlll08/MultiLoader-Template)
 
 This mod respects the original author's license
 
