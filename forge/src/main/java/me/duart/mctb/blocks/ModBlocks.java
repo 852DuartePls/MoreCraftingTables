@@ -1,6 +1,5 @@
 package me.duart.mctb.blocks;
 
-import me.duart.mctb.BlockIds;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.state.BlockBehaviour;
