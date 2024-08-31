@@ -88,7 +88,10 @@
       "mctb:ru_redwood_crafting_table",
       "mctb:socotra_crafting_table",
       "mctb:ru_willow_crafting_table",
-      "mctb:yellow_bioshroom_crafting_table"
+      "mctb:yellow_bioshroom_crafting_table",
+      "mctb:bop_maple_crafting_table",
+      "mctb:bop_pine_crafting_table",
+      "mctb:empyreal_crafting_table"
     ]
   }
 }

@@ -10,7 +10,7 @@ logoFile="mctb.png"
 credits="${credits}"
 authors='''
 P3NG00 = Original creator of the mod for Fabric
-852Duarte = Ported for Forge
+852Duarte = Ported for Forge and NeoForge
 '''
 
 description='''

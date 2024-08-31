@@ -12,7 +12,6 @@
     "mctb:bamboo_crafting_table",
     "mctb:mangrove_crafting_table",
 
-    "mctb:bop_cherry_crafting_table",
     "mctb:dead_crafting_table",
     "mctb:fir_crafting_table",
     "mctb:hellbark_crafting_table",
@@ -23,6 +22,9 @@
     "mctb:redwood_crafting_table",
     "mctb:umbran_crafting_table",
     "mctb:willow_crafting_table",
+    "mctb:bop_maple_crafting_table",
+    "mctb:bop_pine_crafting_table",
+    "mctb:empyreal_crafting_table",
 
     "mctb:azalea_crafting_table",
     "mctb:ancient_crafting_table",
