@@ -1,5 +1,5 @@
 plugins {
-    id 'multiloader-common'
+    id 'mctb-core'
 }
 
 configurations {
@@ -12,13 +12,13 @@ configurations {
 }
 
 dependencies {
-    compileOnly(project(':common')) {
+    compileOnly(project(':core')) {
         capabilities {
             requireCapability "$group:$mod_id"
         }
     }
-    commonJava project(path: ':common', configuration: 'commonJava')
-    commonResources project(path: ':common', configuration: 'commonResources')
+    commonJava project(path: ':core', configuration: 'commonJava')
+    commonResources project(path: ':core', configuration: 'commonResources')
 }
 
 tasks.named('compileJava', JavaCompile) {
@@ -41,4 +41,8 @@ tasks.named('sourcesJar', Jar) {
     from(configurations.commonJava)
     dependsOn(configurations.commonResources)
     from(configurations.commonResources)
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += ["-nowarn", "-XDenableSunApiLintControl"]
 }

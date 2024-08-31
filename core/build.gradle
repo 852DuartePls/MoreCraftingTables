@@ -1,5 +1,5 @@
 plugins {
-    id 'multiloader-common'
+    id 'mctb-core'
     id 'net.neoforged.moddev'
 }
 
