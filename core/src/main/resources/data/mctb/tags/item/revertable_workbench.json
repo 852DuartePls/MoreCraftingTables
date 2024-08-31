@@ -44,6 +44,30 @@
     "mctb:transformation_crafting_table",
     "mctb:mining_crafting_table",
     "mctb:sorting_crafting_table",
-    "mctb:towerwood_crafting_table"
+    "mctb:towerwood_crafting_table",
+
+    "mctb:alpha_crafting_table",
+    "mctb:baobab_crafting_table",
+    "mctb:blackwood_crafting_table",
+    "mctb:blue_bioshroom_crafting_table",
+    "mctb:brimwood_crafting_table",
+    "mctb:cobalt_crafting_table",
+    "mctb:cypress_crafting_table",
+    "mctb:ru_dead_crafting_table",
+    "mctb:eucalyptus_crafting_table",
+    "mctb:green_bioshroom_crafting_table",
+    "mctb:joshua_crafting_table",
+    "mctb:kapok_crafting_table",
+    "mctb:larch_crafting_table",
+    "mctb:magnolia_crafting_table",
+    "mctb:maple_crafting_table",
+    "mctb:mauve_crafting_table",
+    "mctb:ru_palm_crafting_table",
+    "mctb:pine_crafting_table",
+    "mctb:pink_bioshroom_crafting_table",
+    "mctb:ru_redwood_crafting_table",
+    "mctb:socotra_crafting_table",
+    "mctb:ru_willow_crafting_table",
+    "mctb:yellow_bioshroom_crafting_table"
   ]
 }
