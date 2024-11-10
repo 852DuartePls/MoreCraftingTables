@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
@@ -23,7 +23,7 @@ public class ModBlocks {
     public static final Map<String, RegistryObject<Block>> CRAFTING_TABLES = createCraftingTables();
 
     private static @NotNull Map<String, RegistryObject<Block>> createCraftingTables() {
-        Map<String, RegistryObject<Block>> craftingTables = new HashMap<>();
+        Map<String, RegistryObject<Block>> craftingTables = new LinkedHashMap<>();
         for (String tableName : BlockIds.CRAFTING_TABLES) {
             craftingTables.put(tableName, registerCraftingTable(tableName + "_crafting_table"));
         }

@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
@@ -23,7 +23,7 @@ public class ModBlocks {
     public static final Map<String, DeferredBlock<Block>> CRAFTING_TABLES = createCraftingTables();
 
     private static @NotNull Map<String, DeferredBlock<Block>> createCraftingTables() {
-        Map<String, DeferredBlock<Block>> craftingTables = new HashMap<>();
+        Map<String, DeferredBlock<Block>> craftingTables = new LinkedHashMap<>();
         for (String tableName : BlockIds.CRAFTING_TABLES) {
             craftingTables.put(tableName, registerCraftingTable(tableName + "_crafting_table"));
         }
