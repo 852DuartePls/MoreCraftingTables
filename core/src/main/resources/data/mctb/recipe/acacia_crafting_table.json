@@ -4,11 +4,8 @@
     "xx",
     "xx"
   ],
-  "key":
-  {
-    "x": {
-      "item": "minecraft:acacia_planks"
-    }
+  "key": {
+    "x": "minecraft:acacia_planks"
   },
   "result": {
     "id": "mctb:acacia_crafting_table"

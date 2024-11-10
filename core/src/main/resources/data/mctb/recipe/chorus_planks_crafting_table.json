@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "cataclysm:chorus_planks"
-    }
+    "#": "cataclysm:chorus_planks"
   },
   "result": {
      "id": "minecraft:crafting_table",

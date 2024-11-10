@@ -1,9 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "tag": "mctb:revertable_workbench"
-    }
+    "#mctb:revertable_workbench"
   ],
   "result": {
     "id": "minecraft:crafting_table"

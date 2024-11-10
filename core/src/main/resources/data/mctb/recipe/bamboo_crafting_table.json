@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:bamboo_planks"
-    }
+    "#": "minecraft:bamboo_planks"
   },
   "result": {
     "id": "mctb:bamboo_crafting_table",

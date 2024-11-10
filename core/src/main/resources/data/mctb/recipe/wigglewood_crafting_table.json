@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "undergarden:wigglewood_planks"
-        }
+        "#": "undergarden:wigglewood_planks"
     },
     "result": {
         "id": "mctb:wigglewood_crafting_table",

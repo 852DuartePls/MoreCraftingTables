@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "biomesoplenty:palm_planks"
-    }
+    "#": "biomesoplenty:palm_planks"
   },
   "result": {
      "id":  "mctb:palm_crafting_table",

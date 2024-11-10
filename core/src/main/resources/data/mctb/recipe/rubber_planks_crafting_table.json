@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "gtceu:rubber_planks"
-    }
+    "#": "gtceu:rubber_planks"
   },
   "result": {
      "id":  "minecraft:crafting_table",

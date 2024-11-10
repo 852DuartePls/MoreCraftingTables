@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "twilightforest:canopy_planks"
-        }
+        "#": "twilightforest:canopy_planks"
     },
     "result": {
         "id": "mctb:canopy_crafting_table",

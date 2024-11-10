@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "tag": "forge:planks"
-    }
+    "#": "#forge:planks"
   },
   "result": {
      "id":  "minecraft:crafting_table"

@@ -1,16 +1,14 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "##",
-        "##"
-    ],
-    "key": {
-        "#": {
-            "item": "biomesoplenty:empyreal_planks"
-        }
-    },
-    "result": {
-        "id": "mctb:empyreal_crafting_table",
-        "count": 1
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "biomesoplenty:empyreal_planks"
+  },
+  "result": {
+    "id": "mctb:empyreal_crafting_table",
+    "count": 1
+  }
 }

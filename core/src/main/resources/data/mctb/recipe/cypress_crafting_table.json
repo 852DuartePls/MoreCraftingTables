@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "regions_unexplored:cypress_planks"
-    }
+    "#": "regions_unexplored:cypress_planks"
   },
   "result": {
      "id": "mctb:cypress_crafting_table",

@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "tag": "mctb:chipped_bamboo_planks"
-    }
+    "#":"mctb:chipped_bamboo_planks"
   },
   "result": {
      "id": "mctb:bamboo_crafting_table"

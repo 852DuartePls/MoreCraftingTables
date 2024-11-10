@@ -1,16 +1,14 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "##",
-        "##"
-    ],
-    "key": {
-        "#": {
-            "item": "twilightforest:transformation_planks"
-        }
-    },
-    "result": {
-        "id": "mctb:transformation_crafting_table",
-        "count": 1
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "twilightforest:transformation_planks"
+  },
+  "result": {
+    "id": "mctb:transformation_crafting_table",
+    "count": 1
+  }
 }

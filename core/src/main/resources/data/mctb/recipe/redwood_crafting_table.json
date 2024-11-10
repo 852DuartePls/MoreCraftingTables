@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "biomesoplenty:redwood_planks"
-    }
+    "#": "biomesoplenty:redwood_planks"
   },
   "result": {
      "id":  "mctb:redwood_crafting_table",

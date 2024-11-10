@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "quark:azalea_planks"
-    }
+    "#": "quark:azalea_planks"
   },
   "result": {
      "id": "mctb:azalea_crafting_table",

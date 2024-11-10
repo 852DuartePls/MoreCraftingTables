@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "regions_unexplored:palm_planks"
-    }
+    "#": "regions_unexplored:palm_planks"
   },
   "result": {
      "id":  "mctb:ru_palm_crafting_table",

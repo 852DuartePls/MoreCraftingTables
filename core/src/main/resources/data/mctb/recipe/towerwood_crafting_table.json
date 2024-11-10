@@ -1,16 +1,14 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "##",
-        "##"
-    ],
-    "key": {
-        "#": {
-            "tag": "mctb:twilight_towerwood"
-        }
-    },
-    "result": {
-        "id": "mctb:towerwood_crafting_table",
-        "count": 1
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "mctb:twilight_towerwood"
+  },
+  "result": {
+    "id": "mctb:towerwood_crafting_table",
+    "count": 1
+  }
 }

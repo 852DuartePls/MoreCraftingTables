@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "biomesoplenty:willow_planks"
-    }
+    "#": "biomesoplenty:willow_planks"
   },
   "result": {
     "id": "mctb:willow_crafting_table",
