@@ -1,11 +1,15 @@
 package me.duart.mctb;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import net.minecraft.resources.ResourceLocation;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
 
 public class Constants {
 
 	public static final String MOD_ID = "mctb";
-	public static final String MOD_NAME = "MoreCraftingTables";
-	public static final Logger LOG = LoggerFactory.getLogger(MOD_NAME);
+
+	@Contract("_ -> new")
+	public static @NotNull ResourceLocation id(String name) {
+		return ResourceLocation.fromNamespaceAndPath(MOD_ID, name);
+	}
 }
