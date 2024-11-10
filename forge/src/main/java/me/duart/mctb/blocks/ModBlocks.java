@@ -1,42 +1,53 @@
 package me.duart.mctb.blocks;
 
+import me.duart.mctb.Constants;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.RegistryObject;
-import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.function.Supplier;
+
+import static me.duart.mctb.blocks.Registration.BLOCKS;
+import static me.duart.mctb.blocks.Registration.ITEMS;
+import static net.minecraft.world.level.block.Blocks.CRAFTING_TABLE;
 
 public class ModBlocks {
 
-    public static final List<RegistryObject<CraftingBlock>> CRAFTING_TABLES = createCraftingTables();
+    public static final Map<String, RegistryObject<Block>> CRAFTING_TABLES = createCraftingTables();
 
-    private static @NotNull List<RegistryObject<CraftingBlock>> createCraftingTables() {
-        List<RegistryObject<CraftingBlock>> craftingTables = new ArrayList<>();
+    private static @NotNull Map<String, RegistryObject<Block>> createCraftingTables() {
+        Map<String, RegistryObject<Block>> craftingTables = new HashMap<>();
         for (String tableName : BlockIds.CRAFTING_TABLES) {
-            craftingTables.add(register(tableName + "_crafting_table"));
+            craftingTables.put(tableName, registerCraftingTable(tableName + "_crafting_table"));
         }
         return craftingTables;
     }
 
-    public static RegistryObject<CraftingBlock> register(String name) {
-        return Registration.BLOCKS.register(name, ModBlocks::createCraftingBlock);
+    private static RegistryObject<Block> registerCraftingTable(String name) {
+        BlockBehaviour.Properties blockProperties = BlockBehaviour.Properties.ofFullCopy(CRAFTING_TABLE);
+        return createRegistry(name, () -> new CraftingBlock(blockProperties), blockProperties, new Item.Properties());
     }
 
-    @Contract(" -> new")
-    private static @NotNull CraftingBlock createCraftingBlock() {
-        return new CraftingBlock(BlockBehaviour.Properties.ofFullCopy(net.minecraft.world.level.block.Blocks.CRAFTING_TABLE));
+    private static RegistryObject<Block> createRegistry(String name, Supplier<Block> blockSupplier, BlockBehaviour.@NotNull Properties blockProperties, Item.@NotNull Properties itemProperties) {
+        ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name));
+        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name));
+
+        blockProperties.setId(blockKey);
+        itemProperties.useBlockDescriptionPrefix().setId(itemKey);
+
+        RegistryObject<Block> block = BLOCKS.register(name, blockSupplier);
+        ITEMS.register(name, () -> new BlockItem(block.get(), itemProperties));
+
+        return block;
     }
 
-    public static void registerBlockItems() {
-        for (RegistryObject<CraftingBlock> blockObject : CRAFTING_TABLES) {
-            Registration.ITEMS.register(blockObject.getId().getPath(), () -> new BlockItem(blockObject.get(), new Item.Properties()));
-        }
-    }
-
-    public static void register() {
-    }
+    public static void init() {}
 }
