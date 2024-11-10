@@ -1,15 +1,13 @@
 package me.duart.mctb;
 
-import me.duart.mctb.blocks.CraftingBlock;
 import me.duart.mctb.blocks.ModBlocks;
-import net.minecraft.resources.ResourceLocation;
+import me.duart.mctb.blocks.Registration;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.furnace.FurnaceFuelBurnTimeEvent;
-import net.neoforged.neoforge.registries.DeferredBlock;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
@@ -24,7 +22,7 @@ public class MoreCraftingTables {
     public MoreCraftingTables(IEventBus modEventBus) {
         this.modEventBus = modEventBus;
         register();
-        ModBlocks.registerBlockItems();
+        ModBlocks.init();
         NeoForge.EVENT_BUS.register(this);
         LOGGER.info("MoreCraftingTables Loaded");
     }
@@ -33,7 +31,6 @@ public class MoreCraftingTables {
         TABS.register(modEventBus);
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
-        ModBlocks.register();
     }
 
     @SubscribeEvent
@@ -46,18 +43,12 @@ public class MoreCraftingTables {
     }
 
     private boolean isCustomCraftingTableItem(Item item) {
-        for (DeferredBlock<CraftingBlock> blockObject : ModBlocks.CRAFTING_TABLES) {
-            ResourceLocation blockLocation = blockObject.getId();
-
-            if ("mctb:warped_crafting_table".equals(blockLocation.toString()) ||
-                    "mctb:crimson_crafting_table".equals(blockLocation.toString())) {
-                continue;
-            }
-
-            if (item == Item.BY_BLOCK.get(blockObject.get())) {
-                return true;
-            }
-        }
-        return false;
+        return Registration.ITEMS.getEntries().stream()
+                .filter(entry -> entry.getId().getPath().endsWith("_crafting_table"))
+                .filter(entry -> {
+                    String blockId = entry.getId().toString();
+                    return !blockId.equals("mctb:warped_crafting_table") && !blockId.equals("mctb:crimson_crafting_table");
+                })
+                .anyMatch(entry -> item == entry.get());
     }
 }

@@ -4,6 +4,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -14,16 +15,12 @@ public class Registration {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems("mctb");
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "mctb");
 
-    public static DeferredBlock<CraftingBlock> registerBlock(String name, Supplier<CraftingBlock> blockSupplier) {
-        return Registration.BLOCKS.register(name, blockSupplier);
-    }
-
     public static final Supplier<CreativeModeTab> CUSTOM_TAB = Registration.TABS.register("mctb_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.custom_tab"))
-                    .icon(() -> new ItemStack(ModBlocks.CRAFTING_TABLES.get(6).get()))
+                    .icon(() -> new ItemStack(ModBlocks.CRAFTING_TABLES.get("spruce").get()))
                     .displayItems((params, output) -> {
-                        for (DeferredBlock<CraftingBlock> blockObject : ModBlocks.CRAFTING_TABLES) {
+                        for (DeferredBlock<Block> blockObject : ModBlocks.CRAFTING_TABLES.values()) {
                             output.accept(blockObject.get());
                         }
                     })
