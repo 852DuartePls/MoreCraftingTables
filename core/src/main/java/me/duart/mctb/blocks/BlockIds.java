@@ -14,19 +14,19 @@ public class BlockIds {
             "bamboo",
             "mangrove",
             // biomesoplenty:
-            "fir",              // fine
-            "bop_pine",         // new block :: biomesoplenty:pine_planks
-            "bop_maple",        // new block :: biomesoplenty:maple_planks
-            "redwood",          // update texture
-            "mahogany",         // update texture
-            "jacaranda",        // update texture
-            "palm",             // fine
-            "willow",           // fine
-            "dead",             // fine
-            "magic",            // fine
-            "umbran",           // update texture
-            "hellbark",         // fine
-            "empyreal",         // new block :: biomesoplenty:empyrean_planks
+            "fir",
+            "bop_pine",
+            "bop_maple",
+            "redwood",
+            "mahogany",
+            "jacaranda",
+            "palm",
+            "willow",
+            "dead",
+            "magic",
+            "umbran",
+            "hellbark",
+            "empyreal",
             // quark:
             "azalea",
             "ancient",

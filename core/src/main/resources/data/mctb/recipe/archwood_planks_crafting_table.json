@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "ars_nouveau:archwood_planks"
-    }
+    "#": "ars_nouveau:archwood_planks"
   },
   "result": {
      "id": "minecraft:crafting_table",

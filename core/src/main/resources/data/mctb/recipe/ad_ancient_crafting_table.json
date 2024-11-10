@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "naturesaura:ancient_planks"
-        }
+        "#": "naturesaura:ancient_planks"
     },
     "result": {
         "id": "mctb:ad_ancient_crafting_table",

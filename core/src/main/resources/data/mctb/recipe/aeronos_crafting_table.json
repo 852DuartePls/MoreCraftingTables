@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "ad_astra:aeronos_planks"
-        }
+        "#": "ad_astra:aeronos_planks"
     },
     "result": {
         "id": "mctb:aeronos_crafting_table",

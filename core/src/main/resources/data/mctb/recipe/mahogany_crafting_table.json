@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "biomesoplenty:mahogany_planks"
-    }
+    "#": "biomesoplenty:mahogany_planks"
   },
   "result": {
      "id":  "mctb:mahogany_crafting_table",

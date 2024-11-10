@@ -1,16 +1,14 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "##",
-        "##"
-    ],
-    "key": {
-        "#": {
-            "item": "ad_astra:strophar_planks"
-        }
-    },
-    "result": {
-        "id": "mctb:strophar_crafting_table",
-        "count": 1
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "ad_astra:strophar_planks"
+  },
+  "result": {
+    "id": "mctb:strophar_crafting_table",
+    "count": 1
+  }
 }

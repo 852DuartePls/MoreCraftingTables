@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "tag": "mctb:chipped_cherry_planks"
-    }
+    "#": "mctb:chipped_cherry_planks"
   },
   "result": {
      "id": "mctb:cherry_crafting_table"

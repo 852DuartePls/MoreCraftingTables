@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "twilightforest:mining_planks"
-        }
+        "#": "twilightforest:mining_planks"
     },
     "result": {
         "id": "mctb:mining_crafting_table",

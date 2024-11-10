@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "caupona:walnut_planks"
-    }
+    "#": "caupona:walnut_planks"
   },
   "result": {
     "id": "minecraft:crafting_table",

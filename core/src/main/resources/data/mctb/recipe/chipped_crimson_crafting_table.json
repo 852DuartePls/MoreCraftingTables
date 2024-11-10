@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "tag": "mctb:chipped_crimson_planks"
-    }
+    "#": "mctb:chipped_crimson_planks"
   },
   "result": {
      "id": "mctb:crimson_crafting_table"

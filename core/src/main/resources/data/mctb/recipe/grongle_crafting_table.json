@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "undergarden:grongle_planks"
-        }
+        "#": "undergarden:grongle_planks"
     },
     "result": {
         "id": "mctb:grongle_crafting_table",

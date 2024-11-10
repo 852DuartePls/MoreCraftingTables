@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "biomesoplenty:umbran_planks"
-    }
+    "#": "biomesoplenty:umbran_planks"
   },
   "result": {
     "id": "mctb:umbran_crafting_table",

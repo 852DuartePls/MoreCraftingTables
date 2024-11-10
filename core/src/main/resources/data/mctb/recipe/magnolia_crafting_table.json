@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "regions_unexplored:magnolia_planks"
-    }
+    "#": "regions_unexplored:magnolia_planks"
   },
   "result": {
      "id":  "mctb:magnolia_crafting_table",

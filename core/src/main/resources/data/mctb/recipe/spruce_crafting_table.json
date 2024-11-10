@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:spruce_planks"
-    }
+    "#": "minecraft:spruce_planks"
   },
   "result": {
     "id": "mctb:spruce_crafting_table"

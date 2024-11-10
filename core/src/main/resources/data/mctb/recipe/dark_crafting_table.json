@@ -5,9 +5,7 @@
         "##"
     ],
     "key": {
-        "#": {
-            "item": "twilightforest:dark_planks"
-        }
+        "#": "twilightforest:dark_planks"
     },
     "result": {
         "id": "mctb:dark_crafting_table",

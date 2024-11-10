@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "biomesoplenty:magic_planks"
-    }
+    "#": "biomesoplenty:magic_planks"
   },
   "result": {
      "id":  "mctb:magic_crafting_table",

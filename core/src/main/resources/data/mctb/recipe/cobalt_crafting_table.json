@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "regions_unexplored:cobalt_planks"
-    }
+    "#": "regions_unexplored:cobalt_planks"
   },
   "result": {
      "id": "mctb:cobalt_crafting_table",

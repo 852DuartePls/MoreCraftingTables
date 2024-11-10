@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "allthemodium:ancient_planks"
-    }
+    "#": "allthemodium:ancient_planks"
   },
   "result": {
      "id": "minecraft:crafting_table",

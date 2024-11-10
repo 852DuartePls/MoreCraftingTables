@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "allthemodium:demonic_planks"
-    }
+    "#": "allthemodium:demonic_planks"
   },
   "result": {
      "id": "minecraft:crafting_table",

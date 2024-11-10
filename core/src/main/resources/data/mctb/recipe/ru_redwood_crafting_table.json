@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "item": "regions_unexplored:redwood_planks"
-    }
+    "#": "regions_unexplored:redwood_planks"
   },
   "result": {
      "id":  "mctb:ru_redwood_crafting_table",

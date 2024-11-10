@@ -5,11 +5,7 @@ plugins {
 
 neoForge {
     version = neoforge_version
-    def at = project(':core').file('src/main/resources/META-INF/accesstransformer.cfg')
     def mod_id = project.mod_id
-    if (at.exists()) {
-        accessTransformers.add(at.absolutePath)
-    }
     parchment {
         minecraftVersion = parchment_minecraft
         mappingsVersion = parchment_version

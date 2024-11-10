@@ -5,9 +5,7 @@
     "##"
   ],
   "key": {
-    "#": {
-      "tag": "mctb:chipped_spruce_planks"
-    }
+    "#": "mctb:chipped_spruce_planks"
   },
   "result": {
      "id": "mctb:spruce_crafting_table"
