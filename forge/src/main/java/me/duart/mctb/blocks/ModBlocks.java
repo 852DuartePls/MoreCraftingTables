@@ -1,9 +1,7 @@
 package me.duart.mctb.blocks;
 
-import me.duart.mctb.Constants;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -15,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
+import static me.duart.mctb.Constants.id;
 import static me.duart.mctb.blocks.Registration.BLOCKS;
 import static me.duart.mctb.blocks.Registration.ITEMS;
 import static net.minecraft.world.level.block.Blocks.CRAFTING_TABLE;
@@ -37,8 +36,8 @@ public class ModBlocks {
     }
 
     private static RegistryObject<Block> createRegistry(String name, Supplier<Block> blockSupplier, BlockBehaviour.@NotNull Properties blockProperties, Item.@NotNull Properties itemProperties) {
-        ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name));
-        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID, name));
+        ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, id(name));
+        ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, id(name));
 
         blockProperties.setId(blockKey);
         itemProperties.useBlockDescriptionPrefix().setId(itemKey);
