@@ -18,11 +18,11 @@ public class CraftingContainer extends CraftingMenu {
     }
 
     protected static boolean isWithinUsableDistance(@NotNull ContainerLevelAccess worldPos, Player playerIn, Block targetBlock) {
-        return (Boolean) worldPos.evaluate((world, pos) ->
-                world.getBlockState(pos).getBlock() == targetBlock && playerIn.distanceToSqr((double) pos.getX() + 0.5, (double) pos.getY() + 0.5, (double) pos.getZ() + 0.5) <= 64.0, (Object) true);
+        return worldPos.evaluate((world, pos) ->
+                world.getBlockState(pos).getBlock() == targetBlock && playerIn.distanceToSqr((double) pos.getX() + 0.5, (double) pos.getY() + 0.5, (double) pos.getZ() + 0.5) <= 64.0, true);
     }
 
     public boolean stillValid(@NotNull Player playerIn) {
-        return CraftingContainer.isWithinUsableDistance(this.worldPos, playerIn, this.workbench);
+        return isWithinUsableDistance(this.worldPos, playerIn, this.workbench);
     }
 }
