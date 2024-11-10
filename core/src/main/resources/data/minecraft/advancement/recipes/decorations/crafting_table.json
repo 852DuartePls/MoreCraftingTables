@@ -91,7 +91,23 @@
       "mctb:yellow_bioshroom_crafting_table",
       "mctb:bop_maple_crafting_table",
       "mctb:bop_pine_crafting_table",
-      "mctb:empyreal_crafting_table"
+      "mctb:empyreal_crafting_table",
+      "mctb:white_dyed_oak_crafting_table",
+      "mctb:red_dyed_oak_crafting_table",
+      "mctb:orange_dyed_oak_crafting_table",
+      "mctb:pink_dyed_oak_crafting_table",
+      "mctb:yellow_dyed_oak_crafting_table",
+      "mctb:lime_dyed_oak_crafting_table",
+      "mctb:green_dyed_oak_crafting_table",
+      "mctb:light_blue_dyed_oak_crafting_table",
+      "mctb:cyan_dyed_oak_crafting_table",
+      "mctb:blue_dyed_oak_crafting_table",
+      "mctb:magenta_dyed_oak_crafting_table",
+      "mctb:purple_dyed_oak_crafting_table",
+      "mctb:brown_dyed_oak_crafting_table",
+      "mctb:gray_dyed_oak_crafting_table",
+      "mctb:light_gray_dyed_oak_crafting_table",
+      "mctb:black_dyed_oak_crafting_table"
     ]
   }
 }

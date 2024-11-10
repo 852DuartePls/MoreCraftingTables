@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:gray_dye",
+        "X": "minecraft:crafting_table"
+    },
+    "result": {
+        "id": "mctb:gray_dyed_oak_crafting_table"
+    }
+}
