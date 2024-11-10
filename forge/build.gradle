@@ -1,14 +1,9 @@
 plugins {
     id 'mctb-loader'
     id 'net.minecraftforge.gradle' version '[6.0.24,6.2)'
-    id 'org.spongepowered.mixin' version '0.7-SNAPSHOT'
 }
 base {
     archivesName = "${mod_name}-forge-${minecraft_version}"
-}
-mixin {
-    config("${mod_id}.mixins.json")
-    config("${mod_id}.forge.mixins.json")
 }
 
 minecraft {
@@ -17,11 +12,6 @@ minecraft {
     copyIdeResources = true
 
     reobf = false
-
-    def at = file('src/main/resources/META-INF/accesstransformer.cfg')
-    if (at.exists()) {
-        accessTransformer = at
-    }
 
     runs {
         client {
@@ -64,17 +54,8 @@ sourceSets.main.resources.srcDir 'src/generated/resources'
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
-    annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
 
     implementation('net.sf.jopt-simple:jopt-simple:5.0.4') { version { strictly '5.0.4' } }
-}
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            fg.component(it)
-        }
-    }
 }
 
 sourceSets.each {

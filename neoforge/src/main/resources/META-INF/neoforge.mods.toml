@@ -20,10 +20,6 @@ This mod is a port from the original one maded for Fabric called "Oh, How the Cr
 https://www.curseforge.com/minecraft/mc-mods/oh-how-the-crafting-has-tabled
 '''
 
-[[mixins]]
-config = "${mod_id}.mixins.json"
-[[mixins]]
-config = "${mod_id}.neoforge.mixins.json"
 [[dependencies.mctb]]
 modId = "neoforge"
 type="required"
