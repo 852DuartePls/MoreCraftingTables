@@ -1,4 +1,4 @@
-package me.duart.mctb.blocks;
+package com.duart.mctb.blocks;
 
 public class BlockIds {
     public static final String[] CRAFTING_TABLES = {

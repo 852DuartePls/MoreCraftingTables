@@ -1,4 +1,4 @@
-package me.duart.mctb;
+package com.duart.mctb;
 
 import net.minecraft.resources.ResourceLocation;
 import org.jetbrains.annotations.Contract;

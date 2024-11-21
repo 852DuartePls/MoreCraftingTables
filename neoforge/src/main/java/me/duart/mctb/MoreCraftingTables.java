@@ -1,5 +1,6 @@
 package me.duart.mctb;
 
+import com.duart.mctb.Constants;
 import me.duart.mctb.blocks.ModBlocks;
 import me.duart.mctb.blocks.Registration;
 import net.minecraft.world.item.Item;

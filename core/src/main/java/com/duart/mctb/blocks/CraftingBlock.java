@@ -1,5 +1,6 @@
-package me.duart.mctb.blocks;
+package com.duart.mctb.blocks;
 
+import com.duart.mctb.container.CraftingContainer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.MenuProvider;
@@ -19,6 +20,6 @@ public class CraftingBlock extends CraftingTableBlock {
     }
 
     public MenuProvider getMenuProvider(@NotNull BlockState state, @NotNull Level worldIn, @NotNull BlockPos pos) {
-        return new SimpleMenuProvider((id, inventory, entity) -> new me.duart.mctb.container.CraftingContainer(id, inventory, ContainerLevelAccess.create(worldIn, pos), this), GUI_TITLE);
+        return new SimpleMenuProvider((id, inventory, entity) -> new CraftingContainer(id, inventory, ContainerLevelAccess.create(worldIn, pos), this), GUI_TITLE);
     }
 }

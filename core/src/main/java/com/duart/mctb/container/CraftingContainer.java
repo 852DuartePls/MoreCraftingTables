@@ -1,4 +1,4 @@
-package me.duart.mctb.container;
+package com.duart.mctb.container;
 
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;

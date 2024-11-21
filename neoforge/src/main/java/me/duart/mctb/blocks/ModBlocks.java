@@ -1,5 +1,7 @@
 package me.duart.mctb.blocks;
 
+import com.duart.mctb.blocks.BlockIds;
+import com.duart.mctb.blocks.CraftingBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
@@ -13,7 +15,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.function.Supplier;
 
-import static me.duart.mctb.Constants.id;
+import static com.duart.mctb.Constants.id;
 import static me.duart.mctb.blocks.Registration.BLOCKS;
 import static me.duart.mctb.blocks.Registration.ITEMS;
 import static net.minecraft.world.level.block.Blocks.CRAFTING_TABLE;
