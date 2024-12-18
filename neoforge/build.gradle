@@ -3,6 +3,10 @@ plugins {
     id 'net.neoforged.moddev'
 }
 
+base {
+    archivesName = "${mod_name}-neoforge-${minecraft_version}"
+}
+
 neoForge {
     version = neoforge_version
     def mod_id = project.mod_id
