@@ -7,9 +7,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.Map;
 
 import static com.duart.mctb.Constants.MOD_ID;
 
@@ -23,11 +26,46 @@ public class Registration {
                     .title(Component.translatable("itemGroup.custom_tab"))
                     .icon(() -> new ItemStack(ModBlocks.CRAFTING_TABLES.get("spruce").get()))
                     .displayItems((parameters, output) -> {
-                        for (RegistryObject<Block> blockObject : ModBlocks.CRAFTING_TABLES.values()) {
-                            output.accept(blockObject.get());
+                        int index = 0;
+
+                        for (Map.Entry<String, RegistryObject<Block>> entry : ModBlocks.CRAFTING_TABLES.entrySet()) {
+                            if (index >= 0 && index <= 25) {
+                                output.accept(entry.getValue().get());
+                            } else if (index >= 26 && index <= 38) {
+                                if (ModList.get().isLoaded("biomesoplenty")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 39 && index <= 40) {
+                                if (ModList.get().isLoaded("quark")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 41 && index <= 43) {
+                                if (ModList.get().isLoaded("ad_astra")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index == 44) {
+                                if (ModList.get().isLoaded("naturesaura")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 45 && index <= 47) {
+                                if (ModList.get().isLoaded("undergarden")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 48 && index <= 56) {
+                                if (ModList.get().isLoaded("twilightforest")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 57) {
+                                if (ModList.get().isLoaded("regions_unexplored")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            }
+
+                            index++;
                         }
                     })
-                    .build());
+                    .build()
+    );
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

@@ -5,9 +5,11 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import java.util.Map;
 import java.util.function.Supplier;
 
 public class Registration {
@@ -20,8 +22,42 @@ public class Registration {
                     .title(Component.translatable("itemGroup.custom_tab"))
                     .icon(() -> new ItemStack(ModBlocks.CRAFTING_TABLES.get("spruce").get()))
                     .displayItems((params, output) -> {
-                        for (DeferredBlock<Block> blockObject : ModBlocks.CRAFTING_TABLES.values()) {
-                            output.accept(blockObject.get());
+                        int index = 0;
+
+                        for (Map.Entry<String, DeferredBlock<Block>> entry : ModBlocks.CRAFTING_TABLES.entrySet()) {
+                            if (index >= 0 && index <= 25) {
+                                output.accept(entry.getValue().get());
+                            } else if (index >= 26 && index <= 38) {
+                                if (ModList.get().isLoaded("biomesoplenty")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 39 && index <= 40) {
+                                if (ModList.get().isLoaded("quark")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 41 && index <= 43) {
+                                if (ModList.get().isLoaded("ad_astra")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index == 44) {
+                                if (ModList.get().isLoaded("naturesaura")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 45 && index <= 47) {
+                                if (ModList.get().isLoaded("undergarden")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 48 && index <= 56) {
+                                if (ModList.get().isLoaded("twilightforest")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            } else if (index >= 57) {
+                                if (ModList.get().isLoaded("regions_unexplored")) {
+                                    output.accept(entry.getValue().get());
+                                }
+                            }
+
+                            index++;
                         }
                     })
                     .build()
