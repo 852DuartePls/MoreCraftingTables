@@ -8,7 +8,7 @@
   "updateUrl": "",
   "authorList": ["DaveDuart"],
   "credits": "Ported to Forge by DaveDuart, original made by P3NG00 for Fabric",
-  "logoFile": "",
+  "logoFile": "mctb.png",
   "screenshots": [],
   "dependencies": []
 }]
