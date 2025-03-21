@@ -7,11 +7,11 @@
   "key": {
     "#": {
       "item": "biomesoplenty:planks_0",
-      "data": 1
+      "data": 8
     }
   },
   "result": {
-    "item": "mctb:cherry_crafting_table",
+    "item": "mctb:redwood_crafting_table",
     "count": 1
   }
 }
