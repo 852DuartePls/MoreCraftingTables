@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "mctb:block/umbran_crafting_table_front",
+    "up": "mctb:block/umbran_crafting_table_top",
+    "down": "mctb:block/umbran_planks",
+    "north": "mctb:block/umbran_crafting_table_front",
+    "south": "mctb:block/umbran_crafting_table_front",
+    "west": "mctb:block/umbran_crafting_table_side",
+    "east": "mctb:block/umbran_crafting_table_side"
+  }
+}

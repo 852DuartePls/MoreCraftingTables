@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "mctb:block/silverwood_crafting_table_front",
+    "up": "mctb:block/silverwood_crafting_table_top",
+    "down": "mctb:block/silverwood_planks",
+    "north": "mctb:block/silverwood_crafting_table_front",
+    "south": "mctb:block/silverwood_crafting_table_front",
+    "west": "mctb:block/silverwood_crafting_table_side",
+    "east": "mctb:block/silverwood_crafting_table_side"
+  }
+}

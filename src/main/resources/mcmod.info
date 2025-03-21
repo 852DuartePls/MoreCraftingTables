@@ -1,0 +1,14 @@
+[{
+  "modid": "mctb",
+  "name": "More Crafting Tables for Forge",
+  "description": "Make every Crafting Table with their respective wood type so it can fit with your style, and do fun and good looking decorations with it without ruining the look of your house.",
+  "version": "1.1.1",
+  "mcversion": "1.12.2",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/more-crafting-tables-for-forge",
+  "updateUrl": "",
+  "authorList": ["DaveDuart"],
+  "credits": "Ported to Forge by DaveDuart, original made by P3NG00 for Fabric",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]

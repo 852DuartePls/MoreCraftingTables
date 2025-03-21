@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:vertical_planks",
+      "data": 3
+    }
+  },
+  "result": {
+    "item": "mctb:jungle_crafting_table",
+    "count": 1
+  }
+}

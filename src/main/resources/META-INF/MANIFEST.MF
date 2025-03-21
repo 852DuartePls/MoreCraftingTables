@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: MCTB 1.12.2
+Implementation-Version: 1.0
+Specification-Vendor: mctbsareus
+Specification-Title: mctb
+Implementation-Timestamp: 2023-09-02T21:57:26-0400
+Specification-Version: 1
+Implementation-Vendor: mctbsareus
+

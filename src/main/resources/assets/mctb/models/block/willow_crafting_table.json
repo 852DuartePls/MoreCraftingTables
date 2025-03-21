@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "mctb:block/willow_crafting_table_front",
+    "up": "mctb:block/willow_crafting_table_top",
+    "down": "mctb:block/willow_planks",
+    "north": "mctb:block/willow_crafting_table_front",
+    "south": "mctb:block/willow_crafting_table_front",
+    "west": "mctb:block/willow_crafting_table_side",
+    "east": "mctb:block/willow_crafting_table_side"
+  }
+}

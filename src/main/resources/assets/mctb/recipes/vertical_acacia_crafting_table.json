@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:vertical_planks",
+      "data": 4
+    }
+  },
+  "result": {
+    "item": "mctb:acacia_crafting_table",
+    "count": 1
+  }
+}

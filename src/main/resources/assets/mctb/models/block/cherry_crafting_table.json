@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "mctb:block/cherry_crafting_table_front",
+    "up": "mctb:block/cherry_crafting_table_top",
+    "down": "mctb:block/cherry_planks",
+    "north": "mctb:block/cherry_crafting_table_front",
+    "south": "mctb:block/cherry_crafting_table_front",
+    "west": "mctb:block/cherry_crafting_table_side",
+    "east": "mctb:block/cherry_crafting_table_side"
+  }
+}
