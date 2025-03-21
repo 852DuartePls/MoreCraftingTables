@@ -26,7 +26,6 @@ public class ModCraftingBlock extends BlockWorkbench implements IHasModel {
         super();
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.DECORATIONS);
         setSoundType(SoundType.WOOD);
         setHarvestLevel("axe", 0);
         setHardness(2.5F);
