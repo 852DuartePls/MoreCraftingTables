@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "thaumcraft:plank_silverwood"
+    }
+  },
+  "result": {
+    "item": "mctb:silverwood_crafting_table",
+    "count": 1
+  }
+}
