@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "mctb:block/forestry_palm_crafting_table_front",
+        "up": "mctb:block/forestry_palm_crafting_table_top",
+        "down": "mctb:block/forestry_palm_planks",
+        "north": "mctb:block/forestry_palm_crafting_table_front",
+        "south": "mctb:block/forestry_palm_crafting_table_front",
+        "west": "mctb:block/forestry_palm_crafting_table_side",
+        "east": "mctb:block/forestry_palm_crafting_table_side"
+    }
+}

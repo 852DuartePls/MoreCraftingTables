@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "forestry:planks.0",
+            "data": 13
+        }
+    },
+    "result": {
+        "item": "mctb:walnut_crafting_table",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "forestry:planks.1",
+            "data": 11
+        }
+    },
+    "result": {
+        "item": "mctb:cocobolo_crafting_table",
+        "count": 1
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": {
+            "model": "mctb:sequoia_crafting_table"
+        }
+    }
+}

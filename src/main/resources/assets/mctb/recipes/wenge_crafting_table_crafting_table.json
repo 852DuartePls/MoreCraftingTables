@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "forestry:planks.0",
+            "data": 5
+        }
+    },
+    "result": {
+        "item": "mctb:wenge_crafting_table",
+        "count": 1
+    }
+}

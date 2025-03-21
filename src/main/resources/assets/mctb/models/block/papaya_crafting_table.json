@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "mctb:block/papaya_crafting_table_front",
+        "up": "mctb:block/papaya_crafting_table_top",
+        "down": "mctb:block/papaya_planks",
+        "north": "mctb:block/papaya_crafting_table_front",
+        "south": "mctb:block/papaya_crafting_table_front",
+        "west": "mctb:block/papaya_crafting_table_side",
+        "east": "mctb:block/papaya_crafting_table_side"
+    }
+}

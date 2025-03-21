@@ -53,20 +53,20 @@ public class ModBlocks {
             "minewood_crafting_table", "sortingwood_crafting_table", "timewood_crafting_table",
             "transwood_crafting_table",
 
-            // GregTech's Unnoficial Community Edition // TODO: MCTB.1.2.0
-//            "rubber_crafting_table", "treated_wood_crafting_table",
+            // GregTech's Unnoficial Community Edition
+            "rubber_crafting_table", "treated_wood_crafting_table",
 
-            // Forestry // TODO: MCTB.1.2.0
-//            "mahoe_crafting_table", "poplar_crafting_table", "forestry_palm_crafting_table",
-//            "papaya_crafting_table", "forestry_pine_crafting_table", "plum_crafting_table",
-//            "maple_crafting_table", "citrus_crafting_table", "giant_sequoia_crafting_table",
-//            "ipe_crafting_table", "padauk_crafting_table", "cocobolo_crafting_table",
-//            "zebrawood_crafting_table", "larch_crafting_table", "teak_crafting_table",
-//            "desert_acacia_crafting_table", "lime_crafting_table", "chestnut_crafting_table",
-//            "wenge_crafting_table", "forestry_baobab_crafting_table", "sequoia_crafting_table",
-//            "kapop_crafting_table", "forestry_ebony_crafting_table", "forestry_mahogany_crafting_table",
-//            "balsa_crafting_table", "forestry_willow_crafting_table", "walnut_crafting_table",
-//            "greenheart_crafting_table", "forestry_cherry_crafting_table"
+            // Forestry
+            "mahoe_crafting_table", "poplar_crafting_table", "forestry_palm_crafting_table",
+            "papaya_crafting_table", "forestry_pine_crafting_table", "plum_crafting_table",
+            "maple_crafting_table", "citrus_crafting_table", "giant_sequoia_crafting_table",
+            "ipe_crafting_table", "padauk_crafting_table", "cocobolo_crafting_table",
+            "zebrawood_crafting_table", "larch_crafting_table", "teak_crafting_table",
+            "desert_acacia_crafting_table", "lime_crafting_table", "chestnut_crafting_table",
+            "wenge_crafting_table", "forestry_baobab_crafting_table", "sequoia_crafting_table",
+            "kapok_crafting_table", "forestry_ebony_crafting_table", "forestry_mahogany_crafting_table",
+            "balsa_crafting_table", "forestry_willow_crafting_table", "walnut_crafting_table",
+            "greenheart_crafting_table", "forestry_cherry_crafting_table"
     };
 
     // Separate the vanilla variants from the modded ones in their corresponding creative tabs

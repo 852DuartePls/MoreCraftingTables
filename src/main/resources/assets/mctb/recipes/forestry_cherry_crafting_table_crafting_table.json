@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "forestry:planks.0",
+            "data": 15
+        }
+    },
+    "result": {
+        "item": "mctb:forestry_cherry_crafting_table",
+        "count": 1
+    }
+}

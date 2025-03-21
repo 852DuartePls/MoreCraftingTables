@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "mctb:block/rubber_crafting_table_front",
+        "up": "mctb:block/rubber_crafting_table_top",
+        "down": "mctb:block/rubber_planks",
+        "north": "mctb:block/rubber_crafting_table_front",
+        "south": "mctb:block/rubber_crafting_table_front",
+        "west": "mctb:block/rubber_crafting_table_side",
+        "east": "mctb:block/rubber_crafting_table_side"
+    }
+}

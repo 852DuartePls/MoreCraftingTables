@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "forestry:planks.0",
+            "data": 7
+        }
+    },
+    "result": {
+        "item": "mctb:sequoia_crafting_table",
+        "count": 1
+    }
+}

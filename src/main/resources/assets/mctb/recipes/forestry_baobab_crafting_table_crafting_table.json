@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "forestry:planks.0",
+            "data": 6
+        }
+    },
+    "result": {
+        "item": "mctb:forestry_baobab_crafting_table",
+        "count": 1
+    }
+}
