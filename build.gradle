@@ -70,4 +70,5 @@ publishing {
     }
 }
 
+// Forge pls
 sourceSets { main { output.resourcesDir = output.classesDir } }
