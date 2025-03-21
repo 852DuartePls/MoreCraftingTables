@@ -25,3 +25,6 @@ tile.ethereal_crafting_table.name=Ethereal Crafting Table
 tile.eucalyptus_crafting_table.name=Eucalyptus Crafting Table
 tile.pine_crafting_table.name=Pine Crafting Table
 tile.ebony_crafting_table.name=Ebony Crafting Table
+# Creative Tabs
+itemGroup.vanillacraftingtablestab=Vanilla Crafting Tables
+itemGroup.moddedcraftingtablestab=Modded Crafting Tables

@@ -1,5 +1,6 @@
 package me.duart.mctb.blocks;
 
+import me.duart.mctb.MoreCraftingTables;
 import me.duart.mctb.utils.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockPlanks;
@@ -66,10 +67,14 @@ public class ModBlocks {
 //            "greenheart_crafting_table", "forestry_cherry_crafting_table"
     };
 
+    // Separate the vanilla variants from the modded ones in their corresponding creative tabs
     static {
+        int index = 0;
         for (String name : CUSTOM_CRAFTING_TABLES) {
-            Block block = new ModCraftingBlock(name).setCreativeTab(CreativeTabs.DECORATIONS);
+            CreativeTabs tab = (index <= 4) ? MoreCraftingTables.VANILLA_TAB : MoreCraftingTables.MODDED_TAB;
+            Block block = new ModCraftingBlock(name).setCreativeTab(tab);
             BLOCKS.add(block);
+            index++;
         }
     }
 
