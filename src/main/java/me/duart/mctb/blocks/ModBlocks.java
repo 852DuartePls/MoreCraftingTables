@@ -44,12 +44,14 @@ public class ModBlocks {
             // Thaumcraft
             "greatwood_crafting_table", "silverwood_crafting_table",
 
-            // Rustic // TODO: MCTB.1.2.0
-//            "olive_crafting_table", "ironwood_crafting_table",
+            // Rustic
+            "olive_crafting_table", "ironwood_crafting_table",
 
-            // Twilight Forest // TODO: MCTB.1.2.0
-//            "canopy_crafting_table",
-//            "darkwood_crafting_table", "twilight_mangrove_crafting_table", "twilight_oak_crafting_table",
+            // Twilight Forest
+            "canopy_crafting_table",
+            "darkwood_crafting_table", "twilight_mangrove_crafting_table", "twilight_oak_crafting_table",
+            "minewood_crafting_table", "sortingwood_crafting_table", "timewood_crafting_table",
+            "transwood_crafting_table",
 
             // GregTech's Unnoficial Community Edition // TODO: MCTB.1.2.0
 //            "rubber_crafting_table", "treated_wood_crafting_table",

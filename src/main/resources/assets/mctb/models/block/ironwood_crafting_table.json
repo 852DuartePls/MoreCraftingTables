@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "mctb:block/ironwood_crafting_table_front",
+        "up": "mctb:block/ironwood_crafting_table_top",
+        "down": "mctb:block/ironwood_planks",
+        "north": "mctb:block/ironwood_crafting_table_front",
+        "south": "mctb:block/ironwood_crafting_table_front",
+        "west": "mctb:block/ironwood_crafting_table_side",
+        "east": "mctb:block/ironwood_crafting_table_side"
+    }
+}

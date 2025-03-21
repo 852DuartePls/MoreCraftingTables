@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "mctb:block/twilight_mangrove_crafting_table_front",
+        "up": "mctb:block/twilight_mangrove_crafting_table_top",
+        "down": "mctb:block/twilight_mangrove_planks",
+        "north": "mctb:block/twilight_mangrove_crafting_table_front",
+        "south": "mctb:block/twilight_mangrove_crafting_table_front",
+        "west": "mctb:block/twilight_mangrove_crafting_table_side",
+        "east": "mctb:block/twilight_mangrove_crafting_table_side"
+    }
+}

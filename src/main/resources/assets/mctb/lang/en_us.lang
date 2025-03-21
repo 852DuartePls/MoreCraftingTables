@@ -25,6 +25,24 @@ tile.ethereal_crafting_table.name=Ethereal Crafting Table
 tile.eucalyptus_crafting_table.name=Eucalyptus Crafting Table
 tile.pine_crafting_table.name=Pine Crafting Table
 tile.ebony_crafting_table.name=Ebony Crafting Table
+tile.olive_crafting_table.name=Olive Crafting Table
+tile.ironwood_crafting_table.name=Ironwood Crafting Table
+tile.canopy_crafting_table.name=Canopy Crafting Table
+tile.darkwood_crafting_table.name=Darkwood Crafting Table
+tile.twilight_mangrove_crafting_table.name=Twilight Mangrove Crafting Table
+tile.twilight_oak_crafting_table.name=Twilight Oak Crafting Table
+tile.minewood_crafting_table.name=Minewood Crafting Table
+tile.sortingwood_crafting_table.name=Sortingwood Crafting Table
+tile.timewood_crafting_table.name=Timewood Crafting Table
+tile.transwood_crafting_table.name=Transwood Crafting Table
+
+# Items
+item.workbench.name=Crafting Table
+item.spruce_crafting_table.name=Spruce Crafting Table
+item.acacia_crafting_table.name=Acacia Crafting Table
+item.jungle_crafting_table.name=Jungle Crafting Table
+item.dark_oak_crafting_table.name=Dark Oak Crafting Table
+item.greatwood_crafting_table.name=Greatwood Crafting Table
 # Creative Tabs
 itemGroup.vanillacraftingtablestab=Vanilla Crafting Tables
 itemGroup.moddedcraftingtablestab=Modded Crafting Tables

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": {
+            "model": "mctb:canopy_crafting_table"
+        }
+    }
+}

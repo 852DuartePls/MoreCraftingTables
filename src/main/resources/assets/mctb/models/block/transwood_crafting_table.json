@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "mctb:block/transwood_crafting_table_front",
+        "up": "mctb:block/transwood_crafting_table_top",
+        "down": "mctb:block/transwood_planks",
+        "north": "mctb:block/transwood_crafting_table_front",
+        "south": "mctb:block/transwood_crafting_table_front",
+        "west": "mctb:block/transwood_crafting_table_side",
+        "east": "mctb:block/transwood_crafting_table_side"
+    }
+}

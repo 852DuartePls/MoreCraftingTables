@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "mctb:block/timewood_crafting_table_front",
+        "up": "mctb:block/timewood_crafting_table_top",
+        "down": "mctb:block/timewood_planks",
+        "north": "mctb:block/timewood_crafting_table_front",
+        "south": "mctb:block/timewood_crafting_table_front",
+        "west": "mctb:block/timewood_crafting_table_side",
+        "east": "mctb:block/timewood_crafting_table_side"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "twilightforest:sort_planks",
+            "data": 1
+        }
+    },
+    "result": {
+        "item": "mctb:sortingwood_crafting_table",
+        "count": 1
+    }
+}

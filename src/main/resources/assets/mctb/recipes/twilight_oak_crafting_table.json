@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "twilightforest:twilight_oak_planks",
+            "data": 1
+        }
+    },
+    "result": {
+        "item": "mctb:twilight_oak_crafting_table",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "twilightforest:time_planks",
+            "data": 1
+        }
+    },
+    "result": {
+        "item": "mctb:timewood_crafting_table",
+        "count": 1
+    }
+}
