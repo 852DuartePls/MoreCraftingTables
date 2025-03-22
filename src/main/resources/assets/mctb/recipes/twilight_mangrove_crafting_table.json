@@ -6,12 +6,11 @@
     ],
     "key": {
         "#": {
-            "item": "twilightforest:mangrove_planks",
-            "data": 1
+            "item": "twilightforest:mangrove_planks"
         }
     },
     "result": {
-        "item": "mctb:mangrove_crafting_table",
+        "item": "mctb:twilight_mangrove_crafting_table",
         "count": 1
     }
 }

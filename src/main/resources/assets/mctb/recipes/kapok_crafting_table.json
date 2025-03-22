@@ -6,12 +6,12 @@
     ],
     "key": {
         "#": {
-            "item": "twilightforest:dark_planks",
-            "data": 1
+            "item": "forestry:planks.0",
+            "data": 8
         }
     },
     "result": {
-        "item": "mctb:dark_crafting_table",
+        "item": "mctb:kapok_crafting_table",
         "count": 1
     }
 }

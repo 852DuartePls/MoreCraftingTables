@@ -4,8 +4,10 @@ tile.spruce_crafting_table.name=Spruce Crafting Table
 tile.acacia_crafting_table.name=Acacia Crafting Table
 tile.jungle_crafting_table.name=Jungle Crafting Table
 tile.dark_oak_crafting_table.name=Dark Oak Crafting Table
+
 tile.greatwood_crafting_table.name=Greatwood Crafting Table
 tile.silverwood_crafting_table.name=Silverwood Crafting Table
+
 tile.mangrove_crafting_table.name=Mangrove Crafting Table
 tile.cherry_crafting_table.name=Cherry Crafting Table
 tile.fir_crafting_table.name=Fir Crafting Table
@@ -67,13 +69,6 @@ tile.walnut_crafting_table.name=Walnut Crafting Table
 tile.greenheart_crafting_table.name=Greenheart Crafting Table
 tile.forestry_cherry_crafting_table.name=Cherry Crafting Table
 
-# Items
-item.workbench.name=Crafting Table
-item.spruce_crafting_table.name=Spruce Crafting Table
-item.acacia_crafting_table.name=Acacia Crafting Table
-item.jungle_crafting_table.name=Jungle Crafting Table
-item.dark_oak_crafting_table.name=Dark Oak Crafting Table
-item.greatwood_crafting_table.name=Greatwood Crafting Table
 # Creative Tabs
 itemGroup.vanillacraftingtablestab=Vanilla Crafting Tables
 itemGroup.moddedcraftingtablestab=Modded Crafting Tables
