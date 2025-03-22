@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.1.1'
+version = '1.2.0'
 group = 'me.duart.mctb'
 archivesBaseName = 'MoreCraftingTables-Forge'
 
@@ -46,7 +46,7 @@ jar {
         attributes([
             "Specification-Title": "mctb",
             "Specification-Vendor": "DaveDuart",
-            "Specification-Version": "1.1.1",
+            "Specification-Version": "1.2.0",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"examplemodsareus",
