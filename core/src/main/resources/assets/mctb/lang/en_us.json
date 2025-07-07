@@ -9,6 +9,7 @@
   "block.mctb.crimson_crafting_table": "Crimson Crafting Table",
   "block.mctb.mangrove_crafting_table": "Mangrove Crafting Table",
   "block.mctb.bamboo_crafting_table": "Bamboo Crafting Table",
+  "block.mctb.pale_oak_crafting_table": "Pale Oak Crafting Table",
   "block.mctb.dead_crafting_table": "Dead Crafting Table",
   "block.mctb.fir_crafting_table": "Fir Crafting Table",
   "block.mctb.hellbark_crafting_table": "Hellbark Crafting Table",
@@ -81,5 +82,6 @@
   "block.mctb.light_gray_dyed_oak_crafting_table": "Light Gray Dyed Crafting Table",
   "block.mctb.black_dyed_oak_crafting_table": "Black Dyed Crafting Table",
   "itemGroup.custom_tab": "More Crafting Tables",
+  "itemGroup.custom_tab_modded": "Modded Crafting Tables",
   "container.crafting_table": "Crafting"
 }

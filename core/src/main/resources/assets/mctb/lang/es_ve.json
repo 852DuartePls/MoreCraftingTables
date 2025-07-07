@@ -9,6 +9,7 @@
   "block.mctb.crimson_crafting_table": "Mesa de crafteo carmesí",
   "block.mctb.mangrove_crafting_table": "Mesa de crafteo de manglar",
   "block.mctb.bamboo_crafting_table": "Mesa de crafteo de bambú",
+  "block.mctb.pale_oak_crafting_table": "Mesa de crafteo de roble pálido",
   "block.mctb.dead_crafting_table": "Mesa de crafteo de madera muerta",
   "block.mctb.fir_crafting_table": "Mesa de crafteo de abeto",
   "block.mctb.hellbark_crafting_table": "Mesa de crafteo de corteza infernal",
@@ -81,5 +82,6 @@
   "block.mctb.light_gray_dyed_oak_crafting_table": "Mesa de crafteo de madera gris claro",
   "block.mctb.black_dyed_oak_crafting_table": "Mesa de crafteo de madera negra",
   "itemGroup.custom_tab": "Más mesas de crafteo",
+  "itemGroup.custom_tab_modded": "Modded Crafting Tables",
   "container.crafting_table": "Fabricación"
 }

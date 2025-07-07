@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": "minecraft:pale_oak_planks"
+  },
+  "result": {
+    "id": "mctb:pale_oak_crafting_table"
+  }
+}
