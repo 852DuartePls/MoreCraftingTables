@@ -11,6 +11,7 @@ public class BlockIds {
             "warped",
             "crimson",
             "cherry",
+            "pale_oak",
             "bamboo",
             "mangrove",
             // minecraft: dyed
