@@ -42,7 +42,3 @@ tasks.named('sourcesJar', Jar) {
     dependsOn(configurations.commonResources)
     from(configurations.commonResources)
 }
-
-tasks.withType(JavaCompile).configureEach {
-    options.compilerArgs += ["-nowarn", "-XDenableSunApiLintControl"]
-}

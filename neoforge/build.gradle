@@ -9,7 +9,10 @@ base {
 
 neoForge {
     version = neoforge_version
-    def mod_id = project.mod_id
+    def at = project(':core').file('src/main/resources/META-INF/accesstransformer.cfg')
+    if (at.exists()) {
+        accessTransformers.from(at.absolutePath)
+    }
     parchment {
         minecraftVersion = parchment_minecraft
         mappingsVersion = parchment_version
@@ -23,7 +26,7 @@ neoForge {
             client()
         }
         data {
-            data()
+            clientData()
         }
         server {
             server()

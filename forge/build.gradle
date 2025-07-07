@@ -14,6 +14,11 @@ minecraft {
 
     reobf = false
 
+    def at = file('src/main/resources/META-INF/accesstransformer.cfg')
+    if (at.exists()) {
+        accessTransformer = at
+    }
+
     runs {
         client {
             workingDirectory file('runs/client')
